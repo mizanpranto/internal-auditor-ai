@@ -1,0 +1,751 @@
+{
+  "framework": "ISO/IEC 27001:2022 Annex A",
+  "version": "2022",
+  "note": "Control IDs and titles follow ISO/IEC 27001:2022 Annex A. The summaries and evidence hints are the project author's own paraphrases for retrieval and assessment; they are not the text of the standard. Consult the purchased standard for authoritative wording. The 'impact' weight (1-5) is a generic default used by the risk scorer - tune it for your organisation.",
+  "controls": [
+    {
+      "id": "5.1",
+      "domain": "Organizational controls",
+      "title": "Policies for information security",
+      "summary": "Management approves, publishes and communicates an information security policy plus topic-specific policies, and reviews them at planned intervals.",
+      "evidence_hint": "Approved policy set, version history, review records, communication or acknowledgement evidence",
+      "impact": 5
+    },
+    {
+      "id": "5.2",
+      "domain": "Organizational controls",
+      "title": "Information security roles and responsibilities",
+      "summary": "Security responsibilities are defined and assigned to named roles across the organization.",
+      "evidence_hint": "RACI matrix, role descriptions, org chart, ISMS role appointments",
+      "impact": 4
+    },
+    {
+      "id": "5.3",
+      "domain": "Organizational controls",
+      "title": "Segregation of duties",
+      "summary": "Conflicting duties and areas of responsibility are separated to reduce the chance of unauthorized or accidental misuse.",
+      "evidence_hint": "Role matrices, access reviews showing separation, approval workflows",
+      "impact": 3
+    },
+    {
+      "id": "5.4",
+      "domain": "Organizational controls",
+      "title": "Management responsibilities",
+      "summary": "Management requires all personnel to apply security in line with established policies and procedures.",
+      "evidence_hint": "Management review minutes, leadership directives, onboarding requirements",
+      "impact": 3
+    },
+    {
+      "id": "5.5",
+      "domain": "Organizational controls",
+      "title": "Contact with authorities",
+      "summary": "Relevant authorities (regulators, law enforcement, emergency services) are identified and contact procedures are in place.",
+      "evidence_hint": "Authority contact list, escalation procedure, regulator notification procedure",
+      "impact": 2
+    },
+    {
+      "id": "5.6",
+      "domain": "Organizational controls",
+      "title": "Contact with special interest groups",
+      "summary": "The organization keeps contact with security forums and professional associations to stay informed.",
+      "evidence_hint": "Memberships, subscriptions, advisory feed records",
+      "impact": 2
+    },
+    {
+      "id": "5.7",
+      "domain": "Organizational controls",
+      "title": "Threat intelligence",
+      "summary": "Information about security threats is collected and analyzed to produce intelligence that informs decisions.",
+      "evidence_hint": "Threat feeds, advisories, threat analysis reports, risk assessment inputs",
+      "impact": 3
+    },
+    {
+      "id": "5.8",
+      "domain": "Organizational controls",
+      "title": "Information security in project management",
+      "summary": "Security requirements are built into project management for every kind of project.",
+      "evidence_hint": "Project methodology, security checkpoints, project risk assessments",
+      "impact": 3
+    },
+    {
+      "id": "5.9",
+      "domain": "Organizational controls",
+      "title": "Inventory of information and other associated assets",
+      "summary": "An inventory of information and associated assets is maintained and each asset has a named owner.",
+      "evidence_hint": "Asset register, owner assignments, inventory review records",
+      "impact": 5
+    },
+    {
+      "id": "5.10",
+      "domain": "Organizational controls",
+      "title": "Acceptable use of information and other associated assets",
+      "summary": "Rules for acceptable use and handling of information and assets are documented and implemented.",
+      "evidence_hint": "Acceptable use policy, signed acknowledgements, handling procedures",
+      "impact": 3
+    },
+    {
+      "id": "5.11",
+      "domain": "Organizational controls",
+      "title": "Return of assets",
+      "summary": "Personnel and third parties return organizational assets when their employment, contract or agreement ends.",
+      "evidence_hint": "Offboarding checklist, asset return records",
+      "impact": 3
+    },
+    {
+      "id": "5.12",
+      "domain": "Organizational controls",
+      "title": "Classification of information",
+      "summary": "Information is classified according to confidentiality, integrity, availability and legal needs.",
+      "evidence_hint": "Classification scheme, classified inventory, handling rules per class",
+      "impact": 4
+    },
+    {
+      "id": "5.13",
+      "domain": "Organizational controls",
+      "title": "Labelling of information",
+      "summary": "Procedures exist for labelling information consistently with the classification scheme.",
+      "evidence_hint": "Labelling procedure, sample labelled documents or templates",
+      "impact": 2
+    },
+    {
+      "id": "5.14",
+      "domain": "Organizational controls",
+      "title": "Information transfer",
+      "summary": "Rules, procedures or agreements protect information transferred inside and outside the organization.",
+      "evidence_hint": "Transfer policy, NDAs, secure transfer tooling, data sharing agreements",
+      "impact": 4
+    },
+    {
+      "id": "5.15",
+      "domain": "Organizational controls",
+      "title": "Access control",
+      "summary": "Rules to control physical and logical access are established based on business and security requirements.",
+      "evidence_hint": "Access control policy, need-to-know and least-privilege rules",
+      "impact": 5
+    },
+    {
+      "id": "5.16",
+      "domain": "Organizational controls",
+      "title": "Identity management",
+      "summary": "The full life cycle of user identities is managed.",
+      "evidence_hint": "Joiner, mover, leaver procedure, identity registry, deprovisioning records",
+      "impact": 4
+    },
+    {
+      "id": "5.17",
+      "domain": "Organizational controls",
+      "title": "Authentication information",
+      "summary": "Allocation and management of authentication secrets is controlled, and users are told how to handle them.",
+      "evidence_hint": "Password or credential policy, MFA enrolment, credential issuance procedure",
+      "impact": 5
+    },
+    {
+      "id": "5.18",
+      "domain": "Organizational controls",
+      "title": "Access rights",
+      "summary": "Access rights are provisioned, reviewed, modified and removed in line with policy.",
+      "evidence_hint": "Access request records, periodic access reviews, revocation evidence",
+      "impact": 5
+    },
+    {
+      "id": "5.19",
+      "domain": "Organizational controls",
+      "title": "Information security in supplier relationships",
+      "summary": "Processes manage the security risks tied to the use of suppliers' products and services.",
+      "evidence_hint": "Supplier security policy, supplier risk assessments, supplier register",
+      "impact": 5
+    },
+    {
+      "id": "5.20",
+      "domain": "Organizational controls",
+      "title": "Addressing information security within supplier agreements",
+      "summary": "Relevant security requirements are established and agreed with each supplier in contracts.",
+      "evidence_hint": "Contract clauses, data processing agreements, security schedules",
+      "impact": 4
+    },
+    {
+      "id": "5.21",
+      "domain": "Organizational controls",
+      "title": "Managing information security in the ICT supply chain",
+      "summary": "Processes manage security risks in the supply chain of ICT products and services.",
+      "evidence_hint": "ICT supplier requirements, sub-processor lists, supply chain risk assessments",
+      "impact": 3
+    },
+    {
+      "id": "5.22",
+      "domain": "Organizational controls",
+      "title": "Monitoring, review and change management of supplier services",
+      "summary": "Supplier security practices and service delivery are regularly monitored and reviewed, and changes are managed.",
+      "evidence_hint": "Supplier review reports, SLA reviews, review of supplier audit reports or certifications",
+      "impact": 3
+    },
+    {
+      "id": "5.23",
+      "domain": "Organizational controls",
+      "title": "Information security for use of cloud services",
+      "summary": "Processes govern the acquisition, use, management and exit of cloud services.",
+      "evidence_hint": "Cloud security policy, shared-responsibility mapping, cloud exit plans",
+      "impact": 4
+    },
+    {
+      "id": "5.24",
+      "domain": "Organizational controls",
+      "title": "Information security incident management planning and preparation",
+      "summary": "Incident management roles, responsibilities and processes are planned, defined and communicated.",
+      "evidence_hint": "Incident response policy or plan, roles, on-call rota, playbooks",
+      "impact": 5
+    },
+    {
+      "id": "5.25",
+      "domain": "Organizational controls",
+      "title": "Assessment and decision on information security events",
+      "summary": "Security events are assessed to decide whether they should be classified as incidents.",
+      "evidence_hint": "Triage criteria, severity matrix, event assessment records",
+      "impact": 4
+    },
+    {
+      "id": "5.26",
+      "domain": "Organizational controls",
+      "title": "Response to information security incidents",
+      "summary": "Incidents are responded to following documented procedures.",
+      "evidence_hint": "Response procedures, incident tickets, incident logs",
+      "impact": 5
+    },
+    {
+      "id": "5.27",
+      "domain": "Organizational controls",
+      "title": "Learning from information security incidents",
+      "summary": "Knowledge gained from incidents is used to strengthen controls.",
+      "evidence_hint": "Post-incident reviews, lessons learned, resulting corrective actions",
+      "impact": 3
+    },
+    {
+      "id": "5.28",
+      "domain": "Organizational controls",
+      "title": "Collection of evidence",
+      "summary": "Procedures identify, collect, acquire and preserve evidence related to security events.",
+      "evidence_hint": "Evidence handling procedure, chain-of-custody forms",
+      "impact": 3
+    },
+    {
+      "id": "5.29",
+      "domain": "Organizational controls",
+      "title": "Information security during disruption",
+      "summary": "Security is maintained at an appropriate level during a disruption.",
+      "evidence_hint": "Business continuity and DR plans with security requirements, disruption test records",
+      "impact": 3
+    },
+    {
+      "id": "5.30",
+      "domain": "Organizational controls",
+      "title": "ICT readiness for business continuity",
+      "summary": "ICT readiness is planned, implemented, maintained and tested against business continuity objectives.",
+      "evidence_hint": "DR plan, RTO and RPO definitions, DR test results",
+      "impact": 5
+    },
+    {
+      "id": "5.31",
+      "domain": "Organizational controls",
+      "title": "Legal, statutory, regulatory and contractual requirements",
+      "summary": "Applicable legal, regulatory and contractual security requirements are identified, documented and kept up to date.",
+      "evidence_hint": "Legal and obligations register, review records",
+      "impact": 4
+    },
+    {
+      "id": "5.32",
+      "domain": "Organizational controls",
+      "title": "Intellectual property rights",
+      "summary": "Procedures protect intellectual property rights, including software licensing.",
+      "evidence_hint": "Licence inventory, IP policy, software licensing controls",
+      "impact": 2
+    },
+    {
+      "id": "5.33",
+      "domain": "Organizational controls",
+      "title": "Protection of records",
+      "summary": "Records are protected from loss, destruction, falsification and unauthorized access or release.",
+      "evidence_hint": "Records retention schedule, records protection procedure",
+      "impact": 3
+    },
+    {
+      "id": "5.34",
+      "domain": "Organizational controls",
+      "title": "Privacy and protection of PII",
+      "summary": "Privacy and PII protection requirements are identified and met.",
+      "evidence_hint": "Privacy policy, records of processing, DPIAs, data subject request procedure",
+      "impact": 5
+    },
+    {
+      "id": "5.35",
+      "domain": "Organizational controls",
+      "title": "Independent review of information security",
+      "summary": "The approach to managing information security is independently reviewed at planned intervals.",
+      "evidence_hint": "Internal or external audit reports, independent assessment reports",
+      "impact": 4
+    },
+    {
+      "id": "5.36",
+      "domain": "Organizational controls",
+      "title": "Compliance with policies, rules and standards for information security",
+      "summary": "Compliance with the organization's security policies and standards is regularly reviewed.",
+      "evidence_hint": "Compliance check records, management reviews, audit findings tracking",
+      "impact": 3
+    },
+    {
+      "id": "5.37",
+      "domain": "Organizational controls",
+      "title": "Documented operating procedures",
+      "summary": "Operating procedures for information processing facilities are documented and available to those who need them.",
+      "evidence_hint": "Runbooks, SOPs, version-controlled procedure repository",
+      "impact": 3
+    },
+    {
+      "id": "6.1",
+      "domain": "People controls",
+      "title": "Screening",
+      "summary": "Background verification checks are done on candidates before joining and are proportionate to risk.",
+      "evidence_hint": "Screening policy, completed check records",
+      "impact": 4
+    },
+    {
+      "id": "6.2",
+      "domain": "People controls",
+      "title": "Terms and conditions of employment",
+      "summary": "Employment agreements state the personnel's and the organization's security responsibilities.",
+      "evidence_hint": "Employment contract clauses, security acknowledgements",
+      "impact": 3
+    },
+    {
+      "id": "6.3",
+      "domain": "People controls",
+      "title": "Information security awareness, education and training",
+      "summary": "Personnel receive appropriate security awareness, education and training, with regular updates.",
+      "evidence_hint": "Training programme, completion records, phishing exercises",
+      "impact": 5
+    },
+    {
+      "id": "6.4",
+      "domain": "People controls",
+      "title": "Disciplinary process",
+      "summary": "A formal disciplinary process addresses personnel who violate security policy.",
+      "evidence_hint": "Disciplinary policy, HR procedures",
+      "impact": 2
+    },
+    {
+      "id": "6.5",
+      "domain": "People controls",
+      "title": "Responsibilities after termination or change of employment",
+      "summary": "Security duties that stay valid after leaving or changing roles are defined, communicated and enforced.",
+      "evidence_hint": "Exit procedure, post-employment obligations in contracts",
+      "impact": 3
+    },
+    {
+      "id": "6.6",
+      "domain": "People controls",
+      "title": "Confidentiality or non-disclosure agreements",
+      "summary": "Confidentiality agreements reflecting the organization's needs are identified, signed and reviewed.",
+      "evidence_hint": "Signed NDAs, NDA template and review records",
+      "impact": 3
+    },
+    {
+      "id": "6.7",
+      "domain": "People controls",
+      "title": "Remote working",
+      "summary": "Security measures protect information accessed, processed or stored outside the organization's premises.",
+      "evidence_hint": "Remote working policy, VPN and endpoint requirements, remote access controls",
+      "impact": 4
+    },
+    {
+      "id": "6.8",
+      "domain": "People controls",
+      "title": "Information security event reporting",
+      "summary": "A mechanism lets personnel report observed or suspected security events promptly.",
+      "evidence_hint": "Reporting channel, awareness material, reported event log",
+      "impact": 4
+    },
+    {
+      "id": "7.1",
+      "domain": "Physical controls",
+      "title": "Physical security perimeters",
+      "summary": "Security perimeters are defined and used to protect areas holding information and assets.",
+      "evidence_hint": "Site security design, perimeter descriptions, floor plans",
+      "impact": 3
+    },
+    {
+      "id": "7.2",
+      "domain": "Physical controls",
+      "title": "Physical entry",
+      "summary": "Secure areas are protected by appropriate entry controls and access points.",
+      "evidence_hint": "Access control system, visitor logs, badge issuance records",
+      "impact": 4
+    },
+    {
+      "id": "7.3",
+      "domain": "Physical controls",
+      "title": "Securing offices, rooms and facilities",
+      "summary": "Physical security is designed and applied to offices, rooms and facilities.",
+      "evidence_hint": "Facility security procedures, room access rules",
+      "impact": 3
+    },
+    {
+      "id": "7.4",
+      "domain": "Physical controls",
+      "title": "Physical security monitoring",
+      "summary": "Premises are continuously monitored for unauthorized physical access.",
+      "evidence_hint": "CCTV or alarm records, monitoring procedure",
+      "impact": 3
+    },
+    {
+      "id": "7.5",
+      "domain": "Physical controls",
+      "title": "Protecting against physical and environmental threats",
+      "summary": "Protection is designed and implemented against natural disasters and other physical threats.",
+      "evidence_hint": "Environmental risk assessment, fire and flood controls, inspection records",
+      "impact": 3
+    },
+    {
+      "id": "7.6",
+      "domain": "Physical controls",
+      "title": "Working in secure areas",
+      "summary": "Security measures for working in secure areas are designed and applied.",
+      "evidence_hint": "Secure area rules, supervision procedures",
+      "impact": 3
+    },
+    {
+      "id": "7.7",
+      "domain": "Physical controls",
+      "title": "Clear desk and clear screen",
+      "summary": "Clear desk rules for papers and media and clear screen rules for systems are defined and enforced.",
+      "evidence_hint": "Clear desk policy, screen lock settings, spot checks",
+      "impact": 3
+    },
+    {
+      "id": "7.8",
+      "domain": "Physical controls",
+      "title": "Equipment siting and protection",
+      "summary": "Equipment is sited and protected to reduce environmental and unauthorized access risks.",
+      "evidence_hint": "Equipment placement standards, server room controls",
+      "impact": 3
+    },
+    {
+      "id": "7.9",
+      "domain": "Physical controls",
+      "title": "Security of assets off-premises",
+      "summary": "Assets taken off-site are protected.",
+      "evidence_hint": "Off-site asset procedure, laptop encryption, travel guidance",
+      "impact": 3
+    },
+    {
+      "id": "7.10",
+      "domain": "Physical controls",
+      "title": "Storage media",
+      "summary": "Storage media are managed through their life cycle in line with classification and handling rules.",
+      "evidence_hint": "Media handling procedure, removable media controls, disposal logs",
+      "impact": 3
+    },
+    {
+      "id": "7.11",
+      "domain": "Physical controls",
+      "title": "Supporting utilities",
+      "summary": "Information processing facilities are protected from power failures and other utility disruptions.",
+      "evidence_hint": "UPS or generator tests, utility redundancy records",
+      "impact": 2
+    },
+    {
+      "id": "7.12",
+      "domain": "Physical controls",
+      "title": "Cabling security",
+      "summary": "Power and data cabling is protected from interception, interference and damage.",
+      "evidence_hint": "Cabling standards, inspection records",
+      "impact": 2
+    },
+    {
+      "id": "7.13",
+      "domain": "Physical controls",
+      "title": "Equipment maintenance",
+      "summary": "Equipment is maintained correctly to preserve availability, integrity and confidentiality.",
+      "evidence_hint": "Maintenance schedule, service records",
+      "impact": 2
+    },
+    {
+      "id": "7.14",
+      "domain": "Physical controls",
+      "title": "Secure disposal or re-use of equipment",
+      "summary": "Equipment containing storage media is checked so data is removed before disposal or re-use.",
+      "evidence_hint": "Disposal procedure, wipe or destruction certificates",
+      "impact": 4
+    },
+    {
+      "id": "8.1",
+      "domain": "Technological controls",
+      "title": "User endpoint devices",
+      "summary": "Information on user endpoint devices is protected.",
+      "evidence_hint": "Endpoint security standard, MDM enrolment, disk encryption evidence",
+      "impact": 4
+    },
+    {
+      "id": "8.2",
+      "domain": "Technological controls",
+      "title": "Privileged access rights",
+      "summary": "Allocation and use of privileged access rights is restricted and managed.",
+      "evidence_hint": "Privileged access policy, PAM tooling, admin account reviews",
+      "impact": 5
+    },
+    {
+      "id": "8.3",
+      "domain": "Technological controls",
+      "title": "Information access restriction",
+      "summary": "Access to information and systems is restricted in line with the access control policy.",
+      "evidence_hint": "Application access matrices, permission configuration evidence",
+      "impact": 4
+    },
+    {
+      "id": "8.4",
+      "domain": "Technological controls",
+      "title": "Access to source code",
+      "summary": "Access to source code, development tools and libraries is appropriately managed.",
+      "evidence_hint": "Repository access controls, branch protection, code access reviews",
+      "impact": 3
+    },
+    {
+      "id": "8.5",
+      "domain": "Technological controls",
+      "title": "Secure authentication",
+      "summary": "Secure authentication technologies and procedures are implemented based on access restrictions.",
+      "evidence_hint": "MFA configuration, lockout and session settings, SSO configuration",
+      "impact": 5
+    },
+    {
+      "id": "8.6",
+      "domain": "Technological controls",
+      "title": "Capacity management",
+      "summary": "Resource use is monitored and adjusted against current and expected capacity needs.",
+      "evidence_hint": "Capacity monitoring reports, scaling or forecast records",
+      "impact": 3
+    },
+    {
+      "id": "8.7",
+      "domain": "Technological controls",
+      "title": "Protection against malware",
+      "summary": "Malware protection is implemented and supported by appropriate user awareness.",
+      "evidence_hint": "Anti-malware or EDR deployment evidence, update policy, alerts",
+      "impact": 5
+    },
+    {
+      "id": "8.8",
+      "domain": "Technological controls",
+      "title": "Management of technical vulnerabilities",
+      "summary": "Information about technical vulnerabilities is obtained, exposure is evaluated and appropriate action is taken.",
+      "evidence_hint": "Vulnerability scan reports, patch SLAs, remediation tracking",
+      "impact": 5
+    },
+    {
+      "id": "8.9",
+      "domain": "Technological controls",
+      "title": "Configuration management",
+      "summary": "Configurations of hardware, software, services and networks are established, documented and monitored.",
+      "evidence_hint": "Hardening baselines, configuration management tooling, drift reports",
+      "impact": 4
+    },
+    {
+      "id": "8.10",
+      "domain": "Technological controls",
+      "title": "Information deletion",
+      "summary": "Information in systems and devices is deleted when no longer required.",
+      "evidence_hint": "Retention and deletion procedure, deletion evidence",
+      "impact": 4
+    },
+    {
+      "id": "8.11",
+      "domain": "Technological controls",
+      "title": "Data masking",
+      "summary": "Data masking is used in line with access control and other policies and business requirements.",
+      "evidence_hint": "Masking standard, masked test data examples",
+      "impact": 2
+    },
+    {
+      "id": "8.12",
+      "domain": "Technological controls",
+      "title": "Data leakage prevention",
+      "summary": "Data leakage prevention measures are applied to systems, networks and devices handling sensitive information.",
+      "evidence_hint": "DLP tooling and rules, egress controls, monitoring records",
+      "impact": 4
+    },
+    {
+      "id": "8.13",
+      "domain": "Technological controls",
+      "title": "Information backup",
+      "summary": "Backup copies of information, software and systems are kept and regularly tested.",
+      "evidence_hint": "Backup policy, backup job logs, restore test results",
+      "impact": 5
+    },
+    {
+      "id": "8.14",
+      "domain": "Technological controls",
+      "title": "Redundancy of information processing facilities",
+      "summary": "Information processing facilities have enough redundancy to meet availability requirements.",
+      "evidence_hint": "Architecture diagrams, failover test records",
+      "impact": 3
+    },
+    {
+      "id": "8.15",
+      "domain": "Technological controls",
+      "title": "Logging",
+      "summary": "Logs recording activities, exceptions, faults and other events are produced, stored, protected and analyzed.",
+      "evidence_hint": "Logging standard, log retention settings, log protection controls",
+      "impact": 5
+    },
+    {
+      "id": "8.16",
+      "domain": "Technological controls",
+      "title": "Monitoring activities",
+      "summary": "Networks, systems and applications are monitored for anomalous behaviour and appropriate action is taken.",
+      "evidence_hint": "SIEM or alerting configuration, monitoring reports, alert handling records",
+      "impact": 5
+    },
+    {
+      "id": "8.17",
+      "domain": "Technological controls",
+      "title": "Clock synchronization",
+      "summary": "Clocks of information processing systems are synchronized to approved time sources.",
+      "evidence_hint": "NTP configuration standard, evidence of synchronization",
+      "impact": 2
+    },
+    {
+      "id": "8.18",
+      "domain": "Technological controls",
+      "title": "Use of privileged utility programs",
+      "summary": "Use of utility programs that can override system and application controls is restricted and tightly controlled.",
+      "evidence_hint": "Utility restriction policy, approved tool list",
+      "impact": 2
+    },
+    {
+      "id": "8.19",
+      "domain": "Technological controls",
+      "title": "Installation of software on operational systems",
+      "summary": "Procedures and measures securely manage software installation on operational systems.",
+      "evidence_hint": "Software installation procedure, approved software list, change records",
+      "impact": 3
+    },
+    {
+      "id": "8.20",
+      "domain": "Technological controls",
+      "title": "Networks security",
+      "summary": "Networks and network devices are secured, managed and controlled to protect information.",
+      "evidence_hint": "Network security standard, firewall rules, network diagrams",
+      "impact": 5
+    },
+    {
+      "id": "8.21",
+      "domain": "Technological controls",
+      "title": "Security of network services",
+      "summary": "Security mechanisms, service levels and requirements for network services are identified, implemented and monitored.",
+      "evidence_hint": "Network service agreements, SLA and security requirements",
+      "impact": 3
+    },
+    {
+      "id": "8.22",
+      "domain": "Technological controls",
+      "title": "Segregation of networks",
+      "summary": "Groups of information services, users and systems are segregated on the organization's networks.",
+      "evidence_hint": "Network segmentation design, VLAN or firewall zone evidence",
+      "impact": 4
+    },
+    {
+      "id": "8.23",
+      "domain": "Technological controls",
+      "title": "Web filtering",
+      "summary": "Access to external websites is managed to reduce exposure to malicious content.",
+      "evidence_hint": "Web filtering or proxy configuration, policy, block reports",
+      "impact": 2
+    },
+    {
+      "id": "8.24",
+      "domain": "Technological controls",
+      "title": "Use of cryptography",
+      "summary": "Rules for the effective use of cryptography, including key management, are defined and implemented.",
+      "evidence_hint": "Cryptography policy, key management procedure, TLS and encryption standards",
+      "impact": 5
+    },
+    {
+      "id": "8.25",
+      "domain": "Technological controls",
+      "title": "Secure development life cycle",
+      "summary": "Rules for the secure development of software and systems are established and applied.",
+      "evidence_hint": "SDLC policy, secure development procedure, security gates",
+      "impact": 4
+    },
+    {
+      "id": "8.26",
+      "domain": "Technological controls",
+      "title": "Application security requirements",
+      "summary": "Security requirements are identified, specified and approved when developing or acquiring applications.",
+      "evidence_hint": "Security requirements templates, requirement reviews",
+      "impact": 3
+    },
+    {
+      "id": "8.27",
+      "domain": "Technological controls",
+      "title": "Secure system architecture and engineering principles",
+      "summary": "Principles for engineering secure systems are established, documented, maintained and applied.",
+      "evidence_hint": "Architecture standards, threat modelling records",
+      "impact": 3
+    },
+    {
+      "id": "8.28",
+      "domain": "Technological controls",
+      "title": "Secure coding",
+      "summary": "Secure coding principles are applied to software development.",
+      "evidence_hint": "Secure coding standards, code review records, static analysis results",
+      "impact": 5
+    },
+    {
+      "id": "8.29",
+      "domain": "Technological controls",
+      "title": "Security testing in development and acceptance",
+      "summary": "Security testing processes are defined and carried out across the development life cycle.",
+      "evidence_hint": "Test plans, penetration test reports, acceptance criteria",
+      "impact": 4
+    },
+    {
+      "id": "8.30",
+      "domain": "Technological controls",
+      "title": "Outsourced development",
+      "summary": "Outsourced system development is directed, monitored and reviewed.",
+      "evidence_hint": "Outsourcing contracts, code delivery reviews, supplier security terms",
+      "impact": 3
+    },
+    {
+      "id": "8.31",
+      "domain": "Technological controls",
+      "title": "Separation of development, test and production environments",
+      "summary": "Development, testing and production environments are separated and secured.",
+      "evidence_hint": "Environment architecture, access separation evidence",
+      "impact": 3
+    },
+    {
+      "id": "8.32",
+      "domain": "Technological controls",
+      "title": "Change management",
+      "summary": "Changes to information processing facilities and systems follow change management procedures.",
+      "evidence_hint": "Change policy, change tickets, approvals and rollback plans",
+      "impact": 4
+    },
+    {
+      "id": "8.33",
+      "domain": "Technological controls",
+      "title": "Test information",
+      "summary": "Test information is appropriately selected, protected and managed.",
+      "evidence_hint": "Test data policy, anonymization procedure",
+      "impact": 3
+    },
+    {
+      "id": "8.34",
+      "domain": "Technological controls",
+      "title": "Protection of information systems during audit testing",
+      "summary": "Audit tests and other assurance activities on operational systems are planned and agreed to limit disruption.",
+      "evidence_hint": "Audit and test planning, agreed scope and access approvals",
+      "impact": 3
+    }
+  ]
+}

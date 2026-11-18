@@ -1,0 +1,311 @@
+{
+  "framework": "SOC 2 Trust Services Criteria (Security, Availability, Confidentiality)",
+  "version": "2017 TSC",
+  "note": "Control IDs and short titles follow the named framework. The summaries and evidence hints are the project author's own paraphrases for retrieval and assessment, not the text of the framework. Consult the official publication for authoritative wording. The 'impact' weight (1-5) is a generic default for the risk scorer; tune it for your organisation. Processing Integrity and Privacy criteria are not included.",
+  "controls": [
+    {
+      "id": "CC1.1",
+      "domain": "CC1 Control environment",
+      "title": "Integrity and ethical values",
+      "summary": "The organization sets and demonstrates standards of conduct, and personnel acknowledge them.",
+      "evidence_hint": "Code of conduct, signed acknowledgements, ethics reporting channel",
+      "impact": 3
+    },
+    {
+      "id": "CC1.2",
+      "domain": "CC1 Control environment",
+      "title": "Board oversight",
+      "summary": "A board or equivalent body, independent of management, oversees how internal control is designed and operated.",
+      "evidence_hint": "Board charter, minutes showing security and risk oversight",
+      "impact": 3
+    },
+    {
+      "id": "CC1.3",
+      "domain": "CC1 Control environment",
+      "title": "Structure, authority and responsibility",
+      "summary": "Management sets up structures, reporting lines and responsibilities needed to meet objectives.",
+      "evidence_hint": "Org chart, role descriptions, RACI matrix",
+      "impact": 3
+    },
+    {
+      "id": "CC1.4",
+      "domain": "CC1 Control environment",
+      "title": "Commitment to competence",
+      "summary": "The organization attracts, develops and retains people with the skills its objectives need.",
+      "evidence_hint": "Hiring standards, training plans, performance reviews",
+      "impact": 3
+    },
+    {
+      "id": "CC1.5",
+      "domain": "CC1 Control environment",
+      "title": "Accountability",
+      "summary": "People are held accountable for their internal control responsibilities.",
+      "evidence_hint": "Performance goals tied to control duties, disciplinary procedure",
+      "impact": 3
+    },
+    {
+      "id": "CC2.1",
+      "domain": "CC2 Communication and information",
+      "title": "Quality information",
+      "summary": "Relevant, reliable information is obtained or produced to support internal control.",
+      "evidence_hint": "Log and data inventories, reports used to monitor controls",
+      "impact": 3
+    },
+    {
+      "id": "CC2.2",
+      "domain": "CC2 Communication and information",
+      "title": "Internal communication",
+      "summary": "Information needed for control, including individual responsibilities, is communicated inside the organization.",
+      "evidence_hint": "Policy distribution records, intranet pages, awareness communications",
+      "impact": 3
+    },
+    {
+      "id": "CC2.3",
+      "domain": "CC2 Communication and information",
+      "title": "External communication",
+      "summary": "Matters affecting control are communicated to customers, vendors and other outside parties.",
+      "evidence_hint": "Customer-facing security documents, contract terms, incident notification commitments",
+      "impact": 4
+    },
+    {
+      "id": "CC3.1",
+      "domain": "CC3 Risk assessment",
+      "title": "Clear objectives",
+      "summary": "Objectives are specified clearly enough to allow risks to be identified and assessed.",
+      "evidence_hint": "Documented business and security objectives",
+      "impact": 3
+    },
+    {
+      "id": "CC3.2",
+      "domain": "CC3 Risk assessment",
+      "title": "Risk identification and analysis",
+      "summary": "Risks to meeting objectives are identified and analysed as the basis for deciding how to manage them.",
+      "evidence_hint": "Risk assessment, risk register, risk methodology",
+      "impact": 5
+    },
+    {
+      "id": "CC3.3",
+      "domain": "CC3 Risk assessment",
+      "title": "Fraud risk",
+      "summary": "The potential for fraud is considered when assessing risks.",
+      "evidence_hint": "Fraud risk assessment, anti-fraud controls",
+      "impact": 3
+    },
+    {
+      "id": "CC3.4",
+      "domain": "CC3 Risk assessment",
+      "title": "Significant change",
+      "summary": "Changes that could affect the system of internal control are identified and assessed.",
+      "evidence_hint": "Change impact assessments, risk assessment refresh records",
+      "impact": 3
+    },
+    {
+      "id": "CC4.1",
+      "domain": "CC4 Monitoring activities",
+      "title": "Ongoing and separate evaluations",
+      "summary": "Ongoing or periodic evaluations confirm that controls are in place and working.",
+      "evidence_hint": "Internal audit plan, control testing results, monitoring dashboards",
+      "impact": 4
+    },
+    {
+      "id": "CC4.2",
+      "domain": "CC4 Monitoring activities",
+      "title": "Deficiency evaluation and reporting",
+      "summary": "Control deficiencies are evaluated and reported to responsible parties in time to act.",
+      "evidence_hint": "Issue log, corrective action tracking, management reports",
+      "impact": 4
+    },
+    {
+      "id": "CC5.1",
+      "domain": "CC5 Control activities",
+      "title": "Selecting and developing controls",
+      "summary": "Control activities that reduce risks to acceptable levels are selected and developed.",
+      "evidence_hint": "Control matrix mapped to risks",
+      "impact": 4
+    },
+    {
+      "id": "CC5.2",
+      "domain": "CC5 Control activities",
+      "title": "Technology general controls",
+      "summary": "General control activities over technology are selected and developed.",
+      "evidence_hint": "IT general controls documentation, baseline standards",
+      "impact": 4
+    },
+    {
+      "id": "CC5.3",
+      "domain": "CC5 Control activities",
+      "title": "Policies and procedures",
+      "summary": "Controls are put in place through policies that set expectations and procedures that carry them out.",
+      "evidence_hint": "Approved policy set, procedures, review records",
+      "impact": 4
+    },
+    {
+      "id": "CC6.1",
+      "domain": "CC6 Logical and physical access",
+      "title": "Logical access security",
+      "summary": "Logical access security software, infrastructure and architecture protect information assets.",
+      "evidence_hint": "Access control policy, SSO and MFA configuration, encryption standards",
+      "impact": 5
+    },
+    {
+      "id": "CC6.2",
+      "domain": "CC6 Logical and physical access",
+      "title": "User registration and authorization",
+      "summary": "New users are registered and authorized before credentials are issued, and removed when access is no longer needed.",
+      "evidence_hint": "Access request tickets, onboarding and offboarding records",
+      "impact": 5
+    },
+    {
+      "id": "CC6.3",
+      "domain": "CC6 Logical and physical access",
+      "title": "Role-based access and least privilege",
+      "summary": "Access is granted, changed and removed by role and least privilege, and reviewed periodically.",
+      "evidence_hint": "Role matrix, periodic access reviews",
+      "impact": 5
+    },
+    {
+      "id": "CC6.4",
+      "domain": "CC6 Logical and physical access",
+      "title": "Physical access",
+      "summary": "Physical access to facilities and protected assets is limited to authorized people.",
+      "evidence_hint": "Badge logs, visitor logs, data centre access lists",
+      "impact": 4
+    },
+    {
+      "id": "CC6.5",
+      "domain": "CC6 Logical and physical access",
+      "title": "Asset disposal",
+      "summary": "Protections are removed from assets that are no longer needed, and data on them is securely destroyed.",
+      "evidence_hint": "Media sanitization procedure, destruction certificates",
+      "impact": 3
+    },
+    {
+      "id": "CC6.6",
+      "domain": "CC6 Logical and physical access",
+      "title": "Threats from outside the system",
+      "summary": "Controls protect the system against threats that originate outside its boundaries.",
+      "evidence_hint": "Firewall rules, web application firewall, network diagrams, penetration test",
+      "impact": 5
+    },
+    {
+      "id": "CC6.7",
+      "domain": "CC6 Logical and physical access",
+      "title": "Restricting data movement",
+      "summary": "Moving, sending and removing information is limited to authorized people and protected in transit.",
+      "evidence_hint": "Encryption in transit, data loss prevention, removable media rules",
+      "impact": 4
+    },
+    {
+      "id": "CC6.8",
+      "domain": "CC6 Logical and physical access",
+      "title": "Malicious software",
+      "summary": "Controls prevent or detect unauthorized or malicious software.",
+      "evidence_hint": "Endpoint protection deployment, patch status, alerts",
+      "impact": 5
+    },
+    {
+      "id": "CC7.1",
+      "domain": "CC7 System operations",
+      "title": "Vulnerability and configuration monitoring",
+      "summary": "Detection and monitoring procedures identify configuration changes and newly found vulnerabilities.",
+      "evidence_hint": "Vulnerability scans, configuration monitoring, patch SLAs",
+      "impact": 5
+    },
+    {
+      "id": "CC7.2",
+      "domain": "CC7 System operations",
+      "title": "Anomaly monitoring",
+      "summary": "System components are monitored for anomalies that point to malicious acts, disasters or errors.",
+      "evidence_hint": "SIEM or alerting configuration, monitoring runbooks",
+      "impact": 5
+    },
+    {
+      "id": "CC7.3",
+      "domain": "CC7 System operations",
+      "title": "Security event evaluation",
+      "summary": "Security events are evaluated to decide whether they are incidents.",
+      "evidence_hint": "Triage criteria, event logs, severity matrix",
+      "impact": 4
+    },
+    {
+      "id": "CC7.4",
+      "domain": "CC7 System operations",
+      "title": "Incident response",
+      "summary": "Incidents are contained, fixed and communicated under a defined response program.",
+      "evidence_hint": "Incident response plan, incident tickets, post-incident reviews",
+      "impact": 5
+    },
+    {
+      "id": "CC7.5",
+      "domain": "CC7 System operations",
+      "title": "Incident recovery",
+      "summary": "Activities to recover from incidents are identified, developed and carried out.",
+      "evidence_hint": "Recovery procedures, lessons learned, recovery test records",
+      "impact": 4
+    },
+    {
+      "id": "CC8.1",
+      "domain": "CC8 Change management",
+      "title": "Change management",
+      "summary": "Changes to infrastructure, data, software and procedures are authorized, designed, tested, approved and implemented under control.",
+      "evidence_hint": "Change policy, tickets showing approval and test evidence",
+      "impact": 5
+    },
+    {
+      "id": "CC9.1",
+      "domain": "CC9 Risk mitigation",
+      "title": "Business disruption risk",
+      "summary": "Risk reduction covers business disruptions, including continuity planning and insurance.",
+      "evidence_hint": "Business continuity plan, disaster recovery plan, insurance cover",
+      "impact": 4
+    },
+    {
+      "id": "CC9.2",
+      "domain": "CC9 Risk mitigation",
+      "title": "Vendor and partner risk",
+      "summary": "Risks from vendors and business partners are assessed and managed.",
+      "evidence_hint": "Vendor register, due diligence, contracts, periodic reviews",
+      "impact": 4
+    },
+    {
+      "id": "A1.1",
+      "domain": "Availability",
+      "title": "Capacity management",
+      "summary": "Processing capacity and its use are monitored and managed to meet availability commitments.",
+      "evidence_hint": "Capacity reports, alert thresholds",
+      "impact": 3
+    },
+    {
+      "id": "A1.2",
+      "domain": "Availability",
+      "title": "Environmental protection, backup and recovery",
+      "summary": "Environmental protections, backup processes and recovery infrastructure are designed and operated.",
+      "evidence_hint": "Backup logs, redundancy design, environmental controls",
+      "impact": 5
+    },
+    {
+      "id": "A1.3",
+      "domain": "Availability",
+      "title": "Recovery testing",
+      "summary": "Recovery plan procedures are tested to support availability commitments.",
+      "evidence_hint": "Disaster recovery test reports, restore tests",
+      "impact": 4
+    },
+    {
+      "id": "C1.1",
+      "domain": "Confidentiality",
+      "title": "Identifying confidential information",
+      "summary": "Confidential information is identified and maintained to meet confidentiality commitments.",
+      "evidence_hint": "Classification scheme, data inventory",
+      "impact": 4
+    },
+    {
+      "id": "C1.2",
+      "domain": "Confidentiality",
+      "title": "Disposing of confidential information",
+      "summary": "Confidential information is disposed of in line with confidentiality commitments.",
+      "evidence_hint": "Retention schedule, deletion records, destruction certificates",
+      "impact": 3
+    }
+  ]
+}

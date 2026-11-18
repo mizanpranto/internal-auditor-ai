@@ -1,0 +1,183 @@
+{
+  "framework": "NIST Cybersecurity Framework 2.0 (categories)",
+  "version": "2.0",
+  "note": "Control IDs and short titles follow the named framework. The summaries and evidence hints are the project author's own paraphrases for retrieval and assessment, not the text of the framework. Consult the official publication for authoritative wording. The 'impact' weight (1-5) is a generic default for the risk scorer; tune it for your organisation. This library assesses at category level (22 categories), not the individual subcategories.",
+  "controls": [
+    {
+      "id": "GV.OC",
+      "domain": "Govern",
+      "title": "Organizational context",
+      "summary": "The mission, stakeholder expectations, dependencies and legal and regulatory requirements that shape cybersecurity risk are understood.",
+      "evidence_hint": "Mission statements, dependency maps, legal and regulatory register",
+      "impact": 3
+    },
+    {
+      "id": "GV.RM",
+      "domain": "Govern",
+      "title": "Risk management strategy",
+      "summary": "Risk priorities, constraints, tolerance and appetite are set and used to support risk decisions.",
+      "evidence_hint": "Risk strategy, risk appetite statement",
+      "impact": 4
+    },
+    {
+      "id": "GV.RR",
+      "domain": "Govern",
+      "title": "Roles, responsibilities and authorities",
+      "summary": "Cybersecurity roles, responsibilities and authorities are established, communicated and enforced.",
+      "evidence_hint": "Role definitions, RACI matrix, board reporting",
+      "impact": 4
+    },
+    {
+      "id": "GV.PO",
+      "domain": "Govern",
+      "title": "Policy",
+      "summary": "Cybersecurity policy is established, communicated and enforced.",
+      "evidence_hint": "Approved policy set, communication and review records",
+      "impact": 4
+    },
+    {
+      "id": "GV.OV",
+      "domain": "Govern",
+      "title": "Oversight",
+      "summary": "Results of risk management activities are used to inform, improve and adjust the strategy.",
+      "evidence_hint": "Management reviews, security metrics, board reports",
+      "impact": 3
+    },
+    {
+      "id": "GV.SC",
+      "domain": "Govern",
+      "title": "Supply chain risk management",
+      "summary": "Supply chain risk processes are identified, established, managed and agreed with stakeholders.",
+      "evidence_hint": "Supplier requirements, due diligence records, contract clauses",
+      "impact": 4
+    },
+    {
+      "id": "ID.AM",
+      "domain": "Identify",
+      "title": "Asset management",
+      "summary": "Data, hardware, software, systems, facilities, services and people are identified and managed by their importance to objectives.",
+      "evidence_hint": "Asset inventory, data flow maps, owner assignments",
+      "impact": 5
+    },
+    {
+      "id": "ID.RA",
+      "domain": "Identify",
+      "title": "Risk assessment",
+      "summary": "Cybersecurity risk to the organization, its assets and individuals is understood.",
+      "evidence_hint": "Risk assessments, vulnerability and threat intelligence records",
+      "impact": 5
+    },
+    {
+      "id": "ID.IM",
+      "domain": "Identify",
+      "title": "Improvement",
+      "summary": "Improvements to risk management processes and activities are identified from all functions.",
+      "evidence_hint": "Lessons learned, audit findings, improvement plans",
+      "impact": 3
+    },
+    {
+      "id": "PR.AA",
+      "domain": "Protect",
+      "title": "Identity management, authentication and access control",
+      "summary": "Access to physical and logical assets is limited to authorized users, services and hardware and managed in line with assessed risk.",
+      "evidence_hint": "Identity and access policy, MFA configuration, access reviews",
+      "impact": 5
+    },
+    {
+      "id": "PR.AT",
+      "domain": "Protect",
+      "title": "Awareness and training",
+      "summary": "Personnel receive cybersecurity awareness and training so they can do their tasks.",
+      "evidence_hint": "Training programme and completion records",
+      "impact": 4
+    },
+    {
+      "id": "PR.DS",
+      "domain": "Protect",
+      "title": "Data security",
+      "summary": "Data is managed in line with risk strategy to protect confidentiality, integrity and availability.",
+      "evidence_hint": "Encryption standards, backup records, data loss prevention",
+      "impact": 5
+    },
+    {
+      "id": "PR.PS",
+      "domain": "Protect",
+      "title": "Platform security",
+      "summary": "Hardware, software and services of physical and virtual platforms are managed in line with risk strategy.",
+      "evidence_hint": "Configuration baselines, patch management, logging standard",
+      "impact": 5
+    },
+    {
+      "id": "PR.IR",
+      "domain": "Protect",
+      "title": "Technology infrastructure resilience",
+      "summary": "Security architecture is managed to protect confidentiality, integrity, availability and resilience of assets.",
+      "evidence_hint": "Network segmentation design, redundancy and capacity records",
+      "impact": 4
+    },
+    {
+      "id": "DE.CM",
+      "domain": "Detect",
+      "title": "Continuous monitoring",
+      "summary": "Assets are monitored to find anomalies, indicators of compromise and other potentially adverse events.",
+      "evidence_hint": "Monitoring tools, alert rules, monitoring reports",
+      "impact": 5
+    },
+    {
+      "id": "DE.AE",
+      "domain": "Detect",
+      "title": "Adverse event analysis",
+      "summary": "Anomalies and indicators of compromise are analysed to characterize events and detect incidents.",
+      "evidence_hint": "Triage procedure, event correlation, severity criteria",
+      "impact": 4
+    },
+    {
+      "id": "RS.MA",
+      "domain": "Respond",
+      "title": "Incident management",
+      "summary": "Responses to detected cybersecurity incidents are managed.",
+      "evidence_hint": "Incident response plan, incident tickets, roles",
+      "impact": 5
+    },
+    {
+      "id": "RS.AN",
+      "domain": "Respond",
+      "title": "Incident analysis",
+      "summary": "Investigations are conducted to ensure effective response and to support forensics and recovery.",
+      "evidence_hint": "Forensic procedure, root cause analysis records",
+      "impact": 4
+    },
+    {
+      "id": "RS.CO",
+      "domain": "Respond",
+      "title": "Incident response reporting and communication",
+      "summary": "Response activities are coordinated with internal and external stakeholders.",
+      "evidence_hint": "Communication plan, regulator and customer notification procedure",
+      "impact": 4
+    },
+    {
+      "id": "RS.MI",
+      "domain": "Respond",
+      "title": "Incident mitigation",
+      "summary": "Activities prevent an event from spreading and reduce its effects.",
+      "evidence_hint": "Containment playbooks, isolation procedures",
+      "impact": 4
+    },
+    {
+      "id": "RC.RP",
+      "domain": "Recover",
+      "title": "Incident recovery plan execution",
+      "summary": "Restoration activities are carried out to bring affected systems and services back into operation.",
+      "evidence_hint": "Recovery plan, restore test results, recovery time records",
+      "impact": 5
+    },
+    {
+      "id": "RC.CO",
+      "domain": "Recover",
+      "title": "Incident recovery communication",
+      "summary": "Restoration activities are coordinated with internal and external parties.",
+      "evidence_hint": "Recovery communication plan, stakeholder update records",
+      "impact": 3
+    }
+  ]
+}
