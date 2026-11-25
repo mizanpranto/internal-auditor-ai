@@ -1,0 +1,1283 @@
+{
+ "title": "Universal evidence checklist",
+ "note": "The same piece of evidence usually satisfies controls in several frameworks. Each item lists the controls in this tool's bundled frameworks that it can support. Mapping is the author's judgement and shows where to look, not that the evidence is enough: a reviewer must still check content, scope and dates. NIST CSF items map to categories.",
+ "items": [
+  {
+   "id": "E01",
+   "name": "Information security and privacy policy set",
+   "proves": "Management has set, approved and communicated the rules the organisation follows.",
+   "examples": "Approved policies with owner, version and approval date; staff acknowledgement.",
+   "type": "Policy",
+   "refresh": "Annual",
+   "maps_to": {
+    "iso27001_2022": [
+     "5.1",
+     "5.10",
+     "5.36",
+     "5.37"
+    ],
+    "soc2_tsc": [
+     "CC5.3",
+     "CC1.1"
+    ],
+    "nist_csf_2": [
+     "GV.PO"
+    ],
+    "hipaa": [
+     "164.316(a)",
+     "164.530(i)"
+    ],
+    "gdpr": [
+     "Art. 24",
+     "Art. 5(2)"
+    ],
+    "iso42001": [
+     "5.2",
+     "A.2.2",
+     "A.2.3",
+     "A.2.4"
+    ]
+   }
+  },
+  {
+   "id": "E02",
+   "name": "Roles, responsibilities and appointments",
+   "proves": "Named people own security, privacy and AI governance.",
+   "examples": "RACI or org chart; appointment letters for the security official, privacy official or DPO.",
+   "type": "Record",
+   "refresh": "On change",
+   "maps_to": {
+    "iso27001_2022": [
+     "5.2",
+     "5.3",
+     "5.4"
+    ],
+    "soc2_tsc": [
+     "CC1.2",
+     "CC1.3",
+     "CC1.5"
+    ],
+    "nist_csf_2": [
+     "GV.RR"
+    ],
+    "hipaa": [
+     "164.308(a)(2)",
+     "164.530(a)"
+    ],
+    "gdpr": [
+     "Art. 37",
+     "Art. 38",
+     "Art. 39"
+    ],
+    "iso42001": [
+     "A.3.2"
+    ]
+   }
+  },
+  {
+   "id": "E03",
+   "name": "Management review and board minutes",
+   "proves": "Leadership reviews security, risk and compliance results and acts on them.",
+   "examples": "Dated minutes with agenda items on risks, incidents, audit results and decisions.",
+   "type": "Record",
+   "refresh": "Annual",
+   "maps_to": {
+    "iso27001_2022": [
+     "5.4",
+     "5.35"
+    ],
+    "soc2_tsc": [
+     "CC1.2",
+     "CC4.2"
+    ],
+    "nist_csf_2": [
+     "GV.OV"
+    ],
+    "hipaa": [
+     "164.308(a)(8)"
+    ],
+    "gdpr": [
+     "Art. 24"
+    ],
+    "iso42001": [
+     "9.3",
+     "6.2"
+    ]
+   }
+  },
+  {
+   "id": "E04",
+   "name": "Risk assessment and risk treatment plan",
+   "proves": "Risks are identified, rated and treated on a schedule.",
+   "examples": "Risk methodology, risk register, treatment plan with owners and dates, latest assessment date.",
+   "type": "Report",
+   "refresh": "Annual",
+   "maps_to": {
+    "iso27001_2022": [
+     "5.7"
+    ],
+    "soc2_tsc": [
+     "CC3.1",
+     "CC3.2",
+     "CC3.3",
+     "CC3.4"
+    ],
+    "nist_csf_2": [
+     "GV.RM",
+     "ID.RA"
+    ],
+    "hipaa": [
+     "164.308(a)(1)(ii)(A)",
+     "164.308(a)(1)(ii)(B)"
+    ],
+    "gdpr": [
+     "Art. 24"
+    ],
+    "iso42001": [
+     "6.1.2",
+     "6.1.3"
+    ]
+   }
+  },
+  {
+   "id": "E05",
+   "name": "Asset inventory",
+   "proves": "The organisation knows what systems, data stores and devices it has.",
+   "examples": "Inventory export with owner, location, classification and last-reviewed date.",
+   "type": "Register",
+   "refresh": "Quarterly",
+   "maps_to": {
+    "iso27001_2022": [
+     "5.9",
+     "5.11",
+     "7.9"
+    ],
+    "soc2_tsc": [
+     "CC6.1"
+    ],
+    "nist_csf_2": [
+     "ID.AM"
+    ],
+    "hipaa": [
+     "164.310(d)(2)(iii)"
+    ],
+    "gdpr": [
+     "Art. 30"
+    ],
+    "iso42001": [
+     "A.4.2",
+     "A.4.3",
+     "A.4.4",
+     "A.4.5"
+    ]
+   }
+  },
+  {
+   "id": "E06",
+   "name": "Data classification and handling rules",
+   "proves": "Data is labelled by sensitivity and handled accordingly.",
+   "examples": "Classification scheme, labelling examples, handling matrix.",
+   "type": "Policy",
+   "refresh": "Annual",
+   "maps_to": {
+    "iso27001_2022": [
+     "5.12",
+     "5.13",
+     "5.14",
+     "8.11",
+     "8.12"
+    ],
+    "soc2_tsc": [
+     "C1.1"
+    ],
+    "nist_csf_2": [
+     "PR.DS"
+    ],
+    "hipaa": [
+     "164.502(b)"
+    ],
+    "gdpr": [
+     "Art. 5(1)(c)",
+     "Art. 9"
+    ],
+    "iso42001": [
+     "A.7.2"
+    ]
+   }
+  },
+  {
+   "id": "E07",
+   "name": "Record of processing and data flow map",
+   "proves": "The organisation knows what personal data it holds, why, and where it moves.",
+   "examples": "Record of processing activities, data flow diagrams, lawful basis per activity.",
+   "type": "Register",
+   "refresh": "Annual",
+   "maps_to": {
+    "iso27001_2022": [
+     "5.34"
+    ],
+    "soc2_tsc": [
+     "C1.1"
+    ],
+    "nist_csf_2": [
+     "ID.AM"
+    ],
+    "hipaa": [
+     "164.528"
+    ],
+    "gdpr": [
+     "Art. 30",
+     "Art. 5(1)(a)",
+     "Art. 6",
+     "Art. 5(1)(b)"
+    ],
+    "iso42001": [
+     "A.7.3",
+     "A.7.5"
+    ]
+   }
+  },
+  {
+   "id": "E08",
+   "name": "Privacy notices and consent records",
+   "proves": "People are told how their data is used and consent is provable where relied on.",
+   "examples": "Published notices with version history; consent logs with date and wording.",
+   "type": "Record",
+   "refresh": "On change",
+   "maps_to": {
+    "iso27001_2022": [
+     "5.34"
+    ],
+    "hipaa": [
+     "164.520",
+     "164.508",
+     "164.508(a)(3)"
+    ],
+    "gdpr": [
+     "Art. 13-14",
+     "Art. 7",
+     "Art. 8"
+    ],
+    "iso42001": [
+     "A.8.2"
+    ]
+   }
+  },
+  {
+   "id": "E09",
+   "name": "Individual rights request log",
+   "proves": "Requests to access, correct, delete or object are handled on time.",
+   "examples": "Request log with received and closed dates; procedure; sample completed responses.",
+   "type": "Log",
+   "refresh": "Per event",
+   "maps_to": {
+    "iso27001_2022": [
+     "5.34"
+    ],
+    "hipaa": [
+     "164.524",
+     "164.526",
+     "164.528",
+     "164.522"
+    ],
+    "gdpr": [
+     "Art. 12",
+     "Art. 15",
+     "Art. 16",
+     "Art. 17",
+     "Art. 18",
+     "Art. 19",
+     "Art. 20",
+     "Art. 21",
+     "Art. 22"
+    ]
+   }
+  },
+  {
+   "id": "E10",
+   "name": "Access control policy and current user list",
+   "proves": "Access is granted by role, with approval, and the list can be produced.",
+   "examples": "Access policy; export of users and roles from key systems; approval tickets.",
+   "type": "Config",
+   "refresh": "Quarterly",
+   "maps_to": {
+    "iso27001_2022": [
+     "5.15",
+     "5.16",
+     "5.18",
+     "8.3"
+    ],
+    "soc2_tsc": [
+     "CC6.1",
+     "CC6.2",
+     "CC6.3"
+    ],
+    "nist_csf_2": [
+     "PR.AA"
+    ],
+    "hipaa": [
+     "164.308(a)(4)(ii)(A)",
+     "164.308(a)(4)(ii)(B)",
+     "164.308(a)(4)(ii)(C)",
+     "164.308(a)(3)(ii)(A)",
+     "164.312(a)(2)(i)"
+    ],
+    "gdpr": [
+     "Art. 32",
+     "Art. 5(1)(f)"
+    ]
+   }
+  },
+  {
+   "id": "E11",
+   "name": "Periodic user access review",
+   "proves": "Someone checks that access is still appropriate and removes what is not.",
+   "examples": "Signed review records with date, reviewer, accounts reviewed and removals made.",
+   "type": "Record",
+   "refresh": "Quarterly",
+   "maps_to": {
+    "iso27001_2022": [
+     "5.18",
+     "8.2"
+    ],
+    "soc2_tsc": [
+     "CC6.2",
+     "CC6.3"
+    ],
+    "nist_csf_2": [
+     "PR.AA"
+    ],
+    "hipaa": [
+     "164.308(a)(4)(ii)(C)"
+    ],
+    "gdpr": [
+     "Art. 32"
+    ]
+   }
+  },
+  {
+   "id": "E12",
+   "name": "Joiner, mover and leaver records",
+   "proves": "Access is created, changed and removed when people join, move or leave.",
+   "examples": "Sample onboarding and offboarding tickets with dates; asset return records.",
+   "type": "Record",
+   "refresh": "Per event",
+   "maps_to": {
+    "iso27001_2022": [
+     "5.16",
+     "5.11",
+     "6.5"
+    ],
+    "soc2_tsc": [
+     "CC6.2"
+    ],
+    "nist_csf_2": [
+     "PR.AA"
+    ],
+    "hipaa": [
+     "164.308(a)(3)(ii)(B)",
+     "164.308(a)(3)(ii)(C)"
+    ],
+    "gdpr": [
+     "Art. 29",
+     "Art. 32"
+    ]
+   }
+  },
+  {
+   "id": "E13",
+   "name": "Authentication settings (MFA and passwords)",
+   "proves": "Users prove who they are with strong, enforced methods.",
+   "examples": "Screenshots or exports of MFA enforcement, password policy and lockout settings.",
+   "type": "Screenshot",
+   "refresh": "Annual",
+   "maps_to": {
+    "iso27001_2022": [
+     "5.17",
+     "8.5"
+    ],
+    "soc2_tsc": [
+     "CC6.1"
+    ],
+    "nist_csf_2": [
+     "PR.AA"
+    ],
+    "hipaa": [
+     "164.308(a)(5)(ii)(D)",
+     "164.308(a)(5)(ii)(C)",
+     "164.312(d)",
+     "164.312(a)(2)(iii)"
+    ],
+    "gdpr": [
+     "Art. 32"
+    ]
+   }
+  },
+  {
+   "id": "E14",
+   "name": "Privileged access list and activity logs",
+   "proves": "Administrator access is limited, approved and watched.",
+   "examples": "List of admin accounts with approvals; sample privileged-activity logs.",
+   "type": "Log",
+   "refresh": "Quarterly",
+   "maps_to": {
+    "iso27001_2022": [
+     "8.2",
+     "8.18"
+    ],
+    "soc2_tsc": [
+     "CC6.3"
+    ],
+    "nist_csf_2": [
+     "PR.AA"
+    ],
+    "hipaa": [
+     "164.312(b)"
+    ],
+    "gdpr": [
+     "Art. 32"
+    ]
+   }
+  },
+  {
+   "id": "E15",
+   "name": "Encryption and key management",
+   "proves": "Data is protected at rest and in transit with managed keys.",
+   "examples": "Configuration exports for disk, database and TLS settings; key management procedure.",
+   "type": "Config",
+   "refresh": "Annual",
+   "maps_to": {
+    "iso27001_2022": [
+     "8.24"
+    ],
+    "soc2_tsc": [
+     "CC6.1",
+     "CC6.7"
+    ],
+    "nist_csf_2": [
+     "PR.DS"
+    ],
+    "hipaa": [
+     "164.312(a)(2)(iv)",
+     "164.312(e)(2)(ii)",
+     "164.312(e)(2)(i)",
+     "164.312(c)(2)"
+    ],
+    "gdpr": [
+     "Art. 32",
+     "Art. 5(1)(f)"
+    ]
+   }
+  },
+  {
+   "id": "E16",
+   "name": "Logging and monitoring evidence",
+   "proves": "Security-relevant events are recorded and reviewed.",
+   "examples": "Log source list, retention setting, dated review records or SIEM alert samples.",
+   "type": "Log",
+   "refresh": "Monthly",
+   "maps_to": {
+    "iso27001_2022": [
+     "8.15",
+     "8.16",
+     "8.17"
+    ],
+    "soc2_tsc": [
+     "CC7.2",
+     "CC7.3"
+    ],
+    "nist_csf_2": [
+     "DE.CM",
+     "DE.AE"
+    ],
+    "hipaa": [
+     "164.312(b)",
+     "164.308(a)(1)(ii)(D)"
+    ],
+    "gdpr": [
+     "Art. 32"
+    ],
+    "iso42001": [
+     "A.6.2.8",
+     "A.6.2.6"
+    ]
+   }
+  },
+  {
+   "id": "E17",
+   "name": "Vulnerability scans and remediation tracking",
+   "proves": "Weaknesses are found and fixed within set timeframes.",
+   "examples": "Scan reports, remediation tickets, time-to-fix metrics.",
+   "type": "Report",
+   "refresh": "Monthly",
+   "maps_to": {
+    "iso27001_2022": [
+     "8.8"
+    ],
+    "soc2_tsc": [
+     "CC7.1"
+    ],
+    "nist_csf_2": [
+     "ID.RA",
+     "PR.PS"
+    ],
+    "gdpr": [
+     "Art. 32"
+    ]
+   }
+  },
+  {
+   "id": "E18",
+   "name": "Penetration test report and retest",
+   "proves": "An independent party tried to break in and findings were fixed.",
+   "examples": "Tester's report with scope and date; remediation evidence and retest result.",
+   "type": "Report",
+   "refresh": "Annual",
+   "maps_to": {
+    "iso27001_2022": [
+     "8.29",
+     "8.34",
+     "5.35"
+    ],
+    "soc2_tsc": [
+     "CC4.1",
+     "CC7.1"
+    ],
+    "nist_csf_2": [
+     "ID.IM"
+    ],
+    "hipaa": [
+     "164.308(a)(8)"
+    ],
+    "gdpr": [
+     "Art. 32"
+    ],
+    "iso42001": [
+     "A.6.2.4"
+    ]
+   }
+  },
+  {
+   "id": "E19",
+   "name": "Patching and configuration baselines",
+   "proves": "Systems are kept updated and set up consistently.",
+   "examples": "Patch policy, patch compliance report, hardening baselines.",
+   "type": "Report",
+   "refresh": "Monthly",
+   "maps_to": {
+    "iso27001_2022": [
+     "8.9",
+     "8.19",
+     "8.8"
+    ],
+    "soc2_tsc": [
+     "CC5.2",
+     "CC7.1"
+    ],
+    "nist_csf_2": [
+     "PR.PS"
+    ],
+    "gdpr": [
+     "Art. 32"
+    ]
+   }
+  },
+  {
+   "id": "E20",
+   "name": "Anti-malware or EDR deployment",
+   "proves": "Malware protection is installed, current and monitored.",
+   "examples": "Coverage report from the console; alert handling samples; policy.",
+   "type": "Report",
+   "refresh": "Quarterly",
+   "maps_to": {
+    "iso27001_2022": [
+     "8.7",
+     "8.1"
+    ],
+    "soc2_tsc": [
+     "CC6.8"
+    ],
+    "nist_csf_2": [
+     "PR.PS",
+     "DE.CM"
+    ],
+    "hipaa": [
+     "164.308(a)(5)(ii)(B)"
+    ],
+    "gdpr": [
+     "Art. 32"
+    ]
+   }
+  },
+  {
+   "id": "E21",
+   "name": "Network security configuration",
+   "proves": "Networks are protected and separated.",
+   "examples": "Network diagram, firewall rule review record, segmentation evidence.",
+   "type": "Config",
+   "refresh": "Semi-annual",
+   "maps_to": {
+    "iso27001_2022": [
+     "8.20",
+     "8.21",
+     "8.22",
+     "8.23"
+    ],
+    "soc2_tsc": [
+     "CC6.6"
+    ],
+    "nist_csf_2": [
+     "PR.IR"
+    ],
+    "hipaa": [
+     "164.312(e)(2)(i)"
+    ],
+    "gdpr": [
+     "Art. 32"
+    ]
+   }
+  },
+  {
+   "id": "E22",
+   "name": "Endpoint, mobile and remote-work controls",
+   "proves": "Devices and remote work are secured.",
+   "examples": "Device management policy, enrolment report, screen-lock and encryption settings, remote work rules.",
+   "type": "Config",
+   "refresh": "Annual",
+   "maps_to": {
+    "iso27001_2022": [
+     "8.1",
+     "6.7",
+     "7.7",
+     "7.8"
+    ],
+    "soc2_tsc": [
+     "CC6.7"
+    ],
+    "nist_csf_2": [
+     "PR.PS"
+    ],
+    "hipaa": [
+     "164.310(b)",
+     "164.310(c)",
+     "164.312(a)(2)(iii)"
+    ],
+    "gdpr": [
+     "Art. 32"
+    ]
+   }
+  },
+  {
+   "id": "E23",
+   "name": "Backup configuration and restore test",
+   "proves": "Data can be restored when needed, and this has been tested.",
+   "examples": "Backup schedule, job success reports, dated restore test results.",
+   "type": "Record",
+   "refresh": "Quarterly",
+   "maps_to": {
+    "iso27001_2022": [
+     "8.13",
+     "8.14"
+    ],
+    "soc2_tsc": [
+     "A1.2",
+     "A1.3"
+    ],
+    "nist_csf_2": [
+     "PR.IR",
+     "RC.RP"
+    ],
+    "hipaa": [
+     "164.308(a)(7)(ii)(A)",
+     "164.310(d)(2)(iv)",
+     "164.308(a)(7)(ii)(D)"
+    ],
+    "gdpr": [
+     "Art. 32"
+    ]
+   }
+  },
+  {
+   "id": "E24",
+   "name": "Business continuity and disaster recovery plan and exercise",
+   "proves": "The organisation can keep working and recover after disruption.",
+   "examples": "Approved plans with recovery targets; exercise report with lessons and actions.",
+   "type": "Report",
+   "refresh": "Annual",
+   "maps_to": {
+    "iso27001_2022": [
+     "5.29",
+     "5.30"
+    ],
+    "soc2_tsc": [
+     "CC9.1",
+     "A1.3",
+     "CC7.5"
+    ],
+    "nist_csf_2": [
+     "RC.RP",
+     "RC.CO",
+     "PR.IR"
+    ],
+    "hipaa": [
+     "164.308(a)(7)(ii)(B)",
+     "164.308(a)(7)(ii)(C)",
+     "164.308(a)(7)(ii)(D)",
+     "164.308(a)(7)(ii)(E)",
+     "164.310(a)(2)(i)"
+    ],
+    "gdpr": [
+     "Art. 32"
+    ]
+   }
+  },
+  {
+   "id": "E25",
+   "name": "Capacity and availability monitoring",
+   "proves": "Systems have enough capacity and outages are tracked.",
+   "examples": "Capacity reports, uptime dashboards, utilities and maintenance records.",
+   "type": "Report",
+   "refresh": "Quarterly",
+   "maps_to": {
+    "iso27001_2022": [
+     "8.6",
+     "7.11",
+     "7.13"
+    ],
+    "soc2_tsc": [
+     "A1.1"
+    ],
+    "nist_csf_2": [
+     "PR.IR"
+    ],
+    "hipaa": [
+     "164.310(a)(2)(iv)"
+    ]
+   }
+  },
+  {
+   "id": "E26",
+   "name": "Incident response plan and incident log",
+   "proves": "Incidents are detected, handled, recorded and learned from.",
+   "examples": "Incident plan; incident register with timeline, severity, root cause and actions; post-incident reviews.",
+   "type": "Log",
+   "refresh": "Per event",
+   "maps_to": {
+    "iso27001_2022": [
+     "5.24",
+     "5.25",
+     "5.26",
+     "5.27",
+     "5.28",
+     "6.8"
+    ],
+    "soc2_tsc": [
+     "CC7.3",
+     "CC7.4",
+     "CC7.5"
+    ],
+    "nist_csf_2": [
+     "RS.MA",
+     "RS.AN",
+     "RS.MI"
+    ],
+    "hipaa": [
+     "164.308(a)(6)(ii)"
+    ],
+    "iso42001": [
+     "A.8.4",
+     "A.3.3"
+    ]
+   }
+  },
+  {
+   "id": "E27",
+   "name": "Breach notification procedure and register",
+   "proves": "Breaches are assessed and reported to regulators and people on time.",
+   "examples": "Breach procedure with decision tree and deadlines; breach register; notification samples.",
+   "type": "Record",
+   "refresh": "Per event",
+   "maps_to": {
+    "iso27001_2022": [
+     "5.5"
+    ],
+    "soc2_tsc": [
+     "CC2.3"
+    ],
+    "nist_csf_2": [
+     "RS.CO"
+    ],
+    "hipaa": [
+     "164.402",
+     "164.404",
+     "164.406",
+     "164.408",
+     "164.410",
+     "164.412",
+     "164.414"
+    ],
+    "gdpr": [
+     "Art. 33",
+     "Art. 34"
+    ],
+    "iso42001": [
+     "A.8.4",
+     "A.8.3"
+    ]
+   }
+  },
+  {
+   "id": "E28",
+   "name": "Security and privacy awareness training records",
+   "proves": "Staff are trained, and completion is tracked.",
+   "examples": "Training content, completion report by person and date, phishing test results.",
+   "type": "Record",
+   "refresh": "Annual",
+   "maps_to": {
+    "iso27001_2022": [
+     "6.3"
+    ],
+    "soc2_tsc": [
+     "CC1.4",
+     "CC2.2"
+    ],
+    "nist_csf_2": [
+     "PR.AT"
+    ],
+    "hipaa": [
+     "164.308(a)(5)(ii)(A)",
+     "164.530(b)"
+    ],
+    "iso42001": [
+     "A.4.6"
+    ]
+   }
+  },
+  {
+   "id": "E29",
+   "name": "HR screening, contracts and sanctions",
+   "proves": "People are vetted, bound by confidentiality, and disciplined for breaches.",
+   "examples": "Screening records, contract clauses, NDAs, disciplinary procedure.",
+   "type": "Record",
+   "refresh": "On hire",
+   "maps_to": {
+    "iso27001_2022": [
+     "6.1",
+     "6.2",
+     "6.4",
+     "6.6"
+    ],
+    "soc2_tsc": [
+     "CC1.1",
+     "CC1.4",
+     "CC1.5"
+    ],
+    "nist_csf_2": [
+     "GV.RR"
+    ],
+    "hipaa": [
+     "164.308(a)(1)(ii)(C)",
+     "164.530(e)"
+    ],
+    "gdpr": [
+     "Art. 29"
+    ]
+   }
+  },
+  {
+   "id": "E30",
+   "name": "Supplier register and security reviews",
+   "proves": "Suppliers are known, risk-rated and reviewed.",
+   "examples": "Supplier list with criticality; due-diligence questionnaires; SOC 2 or ISO reports reviewed.",
+   "type": "Register",
+   "refresh": "Annual",
+   "maps_to": {
+    "iso27001_2022": [
+     "5.19",
+     "5.21",
+     "5.22",
+     "5.23"
+    ],
+    "soc2_tsc": [
+     "CC9.2"
+    ],
+    "nist_csf_2": [
+     "GV.SC"
+    ],
+    "gdpr": [
+     "Art. 28"
+    ],
+    "iso42001": [
+     "A.10.3"
+    ]
+   }
+  },
+  {
+   "id": "E31",
+   "name": "Signed data protection and business associate agreements",
+   "proves": "Contracts with suppliers who touch data contain the required terms.",
+   "examples": "Signed agreements with processing, security, breach and subcontractor clauses.",
+   "type": "Contract",
+   "refresh": "On change",
+   "maps_to": {
+    "iso27001_2022": [
+     "5.20"
+    ],
+    "soc2_tsc": [
+     "CC9.2"
+    ],
+    "nist_csf_2": [
+     "GV.SC"
+    ],
+    "hipaa": [
+     "164.308(b)(1)",
+     "164.314(a)(2)(i)",
+     "164.314(a)(2)(iii)",
+     "164.504(e)"
+    ],
+    "gdpr": [
+     "Art. 28",
+     "Art. 26"
+    ],
+    "iso42001": [
+     "A.10.2",
+     "A.10.4"
+    ]
+   }
+  },
+  {
+   "id": "E32",
+   "name": "Physical security records",
+   "proves": "Facilities and equipment are protected.",
+   "examples": "Access control list, visitor log, CCTV or alarm records, facility security plan.",
+   "type": "Record",
+   "refresh": "Quarterly",
+   "maps_to": {
+    "iso27001_2022": [
+     "7.1",
+     "7.2",
+     "7.3",
+     "7.4",
+     "7.5",
+     "7.6",
+     "7.12"
+    ],
+    "soc2_tsc": [
+     "CC6.4"
+    ],
+    "nist_csf_2": [
+     "PR.IR"
+    ],
+    "hipaa": [
+     "164.310(a)(2)(ii)",
+     "164.310(a)(2)(iii)"
+    ],
+    "gdpr": [
+     "Art. 32"
+    ]
+   }
+  },
+  {
+   "id": "E33",
+   "name": "Media and equipment disposal records",
+   "proves": "Data is wiped before devices are reused or destroyed.",
+   "examples": "Disposal certificates, wipe logs, asset removal tickets.",
+   "type": "Record",
+   "refresh": "Per event",
+   "maps_to": {
+    "iso27001_2022": [
+     "7.10",
+     "7.14",
+     "8.10"
+    ],
+    "soc2_tsc": [
+     "CC6.5",
+     "C1.2"
+    ],
+    "nist_csf_2": [
+     "PR.DS"
+    ],
+    "hipaa": [
+     "164.310(d)(2)(i)",
+     "164.310(d)(2)(ii)"
+    ],
+    "gdpr": [
+     "Art. 5(1)(e)",
+     "Art. 17"
+    ]
+   }
+  },
+  {
+   "id": "E34",
+   "name": "Retention schedule and deletion records",
+   "proves": "Records are kept as long as needed and then deleted.",
+   "examples": "Retention schedule; deletion logs or purge job reports.",
+   "type": "Register",
+   "refresh": "Annual",
+   "maps_to": {
+    "iso27001_2022": [
+     "5.33",
+     "8.10"
+    ],
+    "soc2_tsc": [
+     "C1.2"
+    ],
+    "nist_csf_2": [
+     "PR.DS"
+    ],
+    "hipaa": [
+     "164.316(b)(2)(i)",
+     "164.316(b)(2)(ii)",
+     "164.316(b)(2)(iii)",
+     "164.530(j)"
+    ],
+    "gdpr": [
+     "Art. 5(1)(e)"
+    ]
+   }
+  },
+  {
+   "id": "E35",
+   "name": "Change management records",
+   "proves": "Changes are requested, tested, approved and recorded.",
+   "examples": "Change tickets with approval and test evidence; emergency change handling.",
+   "type": "Record",
+   "refresh": "Per event",
+   "maps_to": {
+    "iso27001_2022": [
+     "8.32",
+     "8.31",
+     "8.33"
+    ],
+    "soc2_tsc": [
+     "CC8.1"
+    ],
+    "nist_csf_2": [
+     "PR.PS"
+    ],
+    "gdpr": [
+     "Art. 25"
+    ],
+    "iso42001": [
+     "A.6.2.5"
+    ]
+   }
+  },
+  {
+   "id": "E36",
+   "name": "Secure development life cycle evidence",
+   "proves": "Software is designed, built and tested with security in mind.",
+   "examples": "SDLC procedure, code review records, test reports, dependency scan results.",
+   "type": "Record",
+   "refresh": "Per release",
+   "maps_to": {
+    "iso27001_2022": [
+     "8.25",
+     "8.26",
+     "8.27",
+     "8.28",
+     "8.30",
+     "8.4"
+    ],
+    "soc2_tsc": [
+     "CC8.1",
+     "CC5.2"
+    ],
+    "nist_csf_2": [
+     "PR.PS"
+    ],
+    "gdpr": [
+     "Art. 25"
+    ],
+    "iso42001": [
+     "A.6.1.3",
+     "A.6.2.2",
+     "A.6.2.3",
+     "A.6.1.2"
+    ]
+   }
+  },
+  {
+   "id": "E37",
+   "name": "Internal audit reports and corrective actions",
+   "proves": "The organisation checks itself and fixes what it finds.",
+   "examples": "Audit plan, signed reports, corrective action tracker with closure dates.",
+   "type": "Report",
+   "refresh": "Annual",
+   "maps_to": {
+    "iso27001_2022": [
+     "5.35",
+     "5.36"
+    ],
+    "soc2_tsc": [
+     "CC4.1",
+     "CC4.2"
+    ],
+    "nist_csf_2": [
+     "ID.IM"
+    ],
+    "hipaa": [
+     "164.308(a)(8)"
+    ],
+    "gdpr": [
+     "Art. 5(2)"
+    ],
+    "iso42001": [
+     "9.2"
+    ]
+   }
+  },
+  {
+   "id": "E38",
+   "name": "Legal and regulatory obligations register",
+   "proves": "The organisation knows which laws and contracts apply and tracks compliance.",
+   "examples": "Register of obligations with owner and status; regulator correspondence log.",
+   "type": "Register",
+   "refresh": "Annual",
+   "maps_to": {
+    "iso27001_2022": [
+     "5.31",
+     "5.32"
+    ],
+    "soc2_tsc": [
+     "CC2.3"
+    ],
+    "nist_csf_2": [
+     "GV.OC"
+    ],
+    "gdpr": [
+     "Art. 31",
+     "Art. 5(2)"
+    ],
+    "iso42001": [
+     "A.8.5"
+    ]
+   }
+  },
+  {
+   "id": "E39",
+   "name": "Impact assessments (privacy and AI)",
+   "proves": "High-risk processing and AI systems are assessed before launch.",
+   "examples": "DPIA procedure and completed DPIAs; AI impact assessments with dates and approvals.",
+   "type": "Report",
+   "refresh": "Per project",
+   "maps_to": {
+    "iso27001_2022": [
+     "5.8"
+    ],
+    "soc2_tsc": [
+     "CC3.4"
+    ],
+    "gdpr": [
+     "Art. 35",
+     "Art. 36"
+    ],
+    "iso42001": [
+     "6.1.4",
+     "A.5.2",
+     "A.5.3",
+     "A.5.4",
+     "A.5.5"
+    ]
+   }
+  },
+  {
+   "id": "E40",
+   "name": "AI system life cycle documentation",
+   "proves": "AI systems are documented, tested, monitored and used as intended.",
+   "examples": "Model or system cards, evaluation results, monitoring reports, intended-use statements, data quality checks.",
+   "type": "Report",
+   "refresh": "Per release",
+   "maps_to": {
+    "gdpr": [
+     "Art. 22"
+    ],
+    "iso42001": [
+     "A.6.2.3",
+     "A.6.2.4",
+     "A.6.2.6",
+     "A.6.2.7",
+     "A.7.4",
+     "A.7.6",
+     "A.9.2",
+     "A.9.3",
+     "A.9.4",
+     "A.8.2",
+     "A.4.4"
+    ]
+   }
+  },
+  {
+   "id": "E41",
+   "name": "International transfer records",
+   "proves": "Data sent abroad has a valid legal mechanism.",
+   "examples": "Transfer inventory, standard contractual clauses, transfer impact assessments.",
+   "type": "Register",
+   "refresh": "Annual",
+   "maps_to": {
+    "iso27001_2022": [
+     "5.14"
+    ],
+    "gdpr": [
+     "Art. 44-46",
+     "Art. 49"
+    ]
+   }
+  },
+  {
+   "id": "E42",
+   "name": "Complaints and concerns channel",
+   "proves": "People can raise concerns and are protected for doing so.",
+   "examples": "Channel description, complaint log with outcomes, non-retaliation statement.",
+   "type": "Log",
+   "refresh": "Per event",
+   "maps_to": {
+    "iso27001_2022": [
+     "6.8"
+    ],
+    "soc2_tsc": [
+     "CC2.3"
+    ],
+    "hipaa": [
+     "164.530(d)",
+     "164.530(f)",
+     "164.530(g)"
+    ],
+    "gdpr": [
+     "Art. 12"
+    ],
+    "iso42001": [
+     "A.3.3",
+     "A.8.3"
+    ]
+   }
+  },
+  {
+   "id": "E43",
+   "name": "Lawful basis and disclosure approvals",
+   "proves": "Uses and sharing of personal data have a valid basis and are limited.",
+   "examples": "Lawful-basis register, disclosure approval records, de-identification method, authorisation forms.",
+   "type": "Register",
+   "refresh": "Annual",
+   "maps_to": {
+    "hipaa": [
+     "164.502(a)",
+     "164.502(b)",
+     "164.506",
+     "164.510",
+     "164.512",
+     "164.514(a)-(b)",
+     "164.514(e)",
+     "164.530(c)"
+    ],
+    "gdpr": [
+     "Art. 6",
+     "Art. 10",
+     "Art. 11",
+     "Art. 5(1)(a)",
+     "Art. 5(1)(d)"
+    ]
+   }
+  }
+ ]
+}
