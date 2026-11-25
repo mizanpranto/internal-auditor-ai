@@ -22,7 +22,7 @@
 
 ## Project status
 
-> **We are building this. It is not finished yet, and everyone is welcome to contribute.**
+> **I am building this. It is not finished yet, and everyone is welcome to contribute.**
 >
 > Internal Auditor is an early prototype. The demo uses fictional documents with hand-written verdicts. Its accuracy against real audit judgements has **not** been benchmarked yet, and it has not been tested at scale. It supports a qualified reviewer and does not replace one. Please do not use its output as an audit opinion or certification.
 
