@@ -1,0 +1,3 @@
+"""Internal Auditor: evidence-locked control assessment on a local LLM."""
+
+__version__ = "0.1.0"
