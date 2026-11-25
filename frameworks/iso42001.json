@@ -1,0 +1,367 @@
+{
+ "framework": "ISO/IEC 42001:2023 AI management system (selected clauses and Annex A)",
+ "version": "ISO/IEC 42001:2023",
+ "note": "Identifiers and short titles follow the standard as recalled by the author; verify them against your licensed copy. Summaries and evidence hints are paraphrases written for this tool, not the standard's text. Management-system clauses included are 5.2, 6.1.2-6.1.4, 6.2, 9.2 and 9.3; the other clauses are not listed as separate controls. Impact weights (1-5) are generic defaults.",
+ "controls": [
+  {
+   "id": "5.2",
+   "domain": "Management system clauses",
+   "title": "AI policy",
+   "summary": "Top management sets an AI policy that fits the organisation's purpose, commits to responsible AI and to continual improvement, and communicates it.",
+   "evidence_hint": "Approved AI policy, communication records.",
+   "impact": 5
+  },
+  {
+   "id": "6.1.2",
+   "domain": "Management system clauses",
+   "title": "AI risk assessment",
+   "summary": "A defined process identifies, analyses and evaluates AI risks, with consistent criteria and results kept as records.",
+   "evidence_hint": "AI risk assessment procedure, criteria, completed risk assessments.",
+   "impact": 5
+  },
+  {
+   "id": "6.1.3",
+   "domain": "Management system clauses",
+   "title": "AI risk treatment",
+   "summary": "Risks are treated with selected controls, compared against Annex A, and recorded in a statement of applicability.",
+   "evidence_hint": "Risk treatment plan, statement of applicability with justifications.",
+   "impact": 5
+  },
+  {
+   "id": "6.1.4",
+   "domain": "Management system clauses",
+   "title": "AI system impact assessment",
+   "summary": "A process assesses the consequences of AI systems for people and society across their life cycle.",
+   "evidence_hint": "Impact assessment procedure and completed assessments.",
+   "impact": 5
+  },
+  {
+   "id": "6.2",
+   "domain": "Management system clauses",
+   "title": "AI objectives and planning",
+   "summary": "Measurable AI objectives are set at relevant levels, with plans for who does what, by when and how results are evaluated.",
+   "evidence_hint": "Objectives register with owners, targets and progress reviews.",
+   "impact": 3
+  },
+  {
+   "id": "9.2",
+   "domain": "Management system clauses",
+   "title": "Internal audit",
+   "summary": "Planned internal audits check that the AI management system meets requirements and is effective.",
+   "evidence_hint": "Audit programme, reports, corrective actions.",
+   "impact": 4
+  },
+  {
+   "id": "9.3",
+   "domain": "Management system clauses",
+   "title": "Management review",
+   "summary": "Top management reviews the AI management system at planned intervals and records decisions on changes and improvement.",
+   "evidence_hint": "Management review minutes with required inputs and outputs.",
+   "impact": 4
+  },
+  {
+   "id": "A.2.2",
+   "domain": "A.2 Policies related to AI",
+   "title": "AI policy",
+   "summary": "A documented policy for AI exists, covering how AI is developed, provided or used.",
+   "evidence_hint": "Approved AI policy and version history.",
+   "impact": 5
+  },
+  {
+   "id": "A.2.3",
+   "domain": "A.2 Policies related to AI",
+   "title": "Alignment with other policies",
+   "summary": "The AI policy is aligned with other organisational policies such as security, privacy and quality.",
+   "evidence_hint": "Policy mapping or cross-reference review.",
+   "impact": 3
+  },
+  {
+   "id": "A.2.4",
+   "domain": "A.2 Policies related to AI",
+   "title": "Review of the AI policy",
+   "summary": "The AI policy is reviewed at planned intervals or after significant change.",
+   "evidence_hint": "Review records with dates and outcomes.",
+   "impact": 3
+  },
+  {
+   "id": "A.3.2",
+   "domain": "A.3 Internal organization",
+   "title": "AI roles and responsibilities",
+   "summary": "Responsibilities for AI are defined and allocated across the organisation.",
+   "evidence_hint": "RACI or role descriptions for AI governance.",
+   "impact": 4
+  },
+  {
+   "id": "A.3.3",
+   "domain": "A.3 Internal organization",
+   "title": "Reporting of concerns",
+   "summary": "A way exists for people to report concerns about AI systems throughout their life cycle.",
+   "evidence_hint": "Reporting channel, procedure, sample handled reports.",
+   "impact": 4
+  },
+  {
+   "id": "A.4.2",
+   "domain": "A.4 Resources for AI systems",
+   "title": "Resource documentation",
+   "summary": "Resources needed for each AI system, such as data, tools, computing and people, are identified and documented.",
+   "evidence_hint": "Resource inventory per AI system.",
+   "impact": 3
+  },
+  {
+   "id": "A.4.3",
+   "domain": "A.4 Resources for AI systems",
+   "title": "Data resources",
+   "summary": "Data resources used by AI systems are documented.",
+   "evidence_hint": "Dataset inventory with sources and owners.",
+   "impact": 4
+  },
+  {
+   "id": "A.4.4",
+   "domain": "A.4 Resources for AI systems",
+   "title": "Tooling resources",
+   "summary": "Tools used to build and run AI systems are documented.",
+   "evidence_hint": "Tool and library inventory.",
+   "impact": 3
+  },
+  {
+   "id": "A.4.5",
+   "domain": "A.4 Resources for AI systems",
+   "title": "System and computing resources",
+   "summary": "Computing and system resources used by AI systems are documented.",
+   "evidence_hint": "Infrastructure and capacity documentation.",
+   "impact": 3
+  },
+  {
+   "id": "A.4.6",
+   "domain": "A.4 Resources for AI systems",
+   "title": "Human resources",
+   "summary": "The competence and skills needed for AI work are identified and documented.",
+   "evidence_hint": "Competence matrix, training records.",
+   "impact": 4
+  },
+  {
+   "id": "A.5.2",
+   "domain": "A.5 Assessing impacts of AI systems",
+   "title": "Impact assessment process",
+   "summary": "A process assesses AI system impacts on individuals, groups and society.",
+   "evidence_hint": "Documented impact assessment process.",
+   "impact": 5
+  },
+  {
+   "id": "A.5.3",
+   "domain": "A.5 Assessing impacts of AI systems",
+   "title": "Documentation of impact assessments",
+   "summary": "Results of AI system impact assessments are retained.",
+   "evidence_hint": "Stored impact assessments with dates.",
+   "impact": 4
+  },
+  {
+   "id": "A.5.4",
+   "domain": "A.5 Assessing impacts of AI systems",
+   "title": "Impact on individuals or groups",
+   "summary": "Potential impacts on people, such as fairness, safety and privacy, are assessed.",
+   "evidence_hint": "Assessment sections covering affected groups.",
+   "impact": 5
+  },
+  {
+   "id": "A.5.5",
+   "domain": "A.5 Assessing impacts of AI systems",
+   "title": "Societal impacts",
+   "summary": "Wider impacts on society and the environment are assessed.",
+   "evidence_hint": "Assessment sections covering societal impact.",
+   "impact": 3
+  },
+  {
+   "id": "A.6.1.2",
+   "domain": "A.6 AI system life cycle",
+   "title": "Objectives for responsible development",
+   "summary": "Objectives that guide responsible AI development are identified and built into the life cycle.",
+   "evidence_hint": "Documented development objectives such as fairness, safety, transparency.",
+   "impact": 4
+  },
+  {
+   "id": "A.6.1.3",
+   "domain": "A.6 AI system life cycle",
+   "title": "Processes for responsible design and development",
+   "summary": "Documented processes cover responsible design and development of AI systems.",
+   "evidence_hint": "Development life cycle procedure with review gates.",
+   "impact": 5
+  },
+  {
+   "id": "A.6.2.2",
+   "domain": "A.6 AI system life cycle",
+   "title": "Requirements and specification",
+   "summary": "Requirements for each AI system, including responsible-AI needs, are specified.",
+   "evidence_hint": "Requirements documents for sample systems.",
+   "impact": 4
+  },
+  {
+   "id": "A.6.2.3",
+   "domain": "A.6 AI system life cycle",
+   "title": "Documentation of design and development",
+   "summary": "Design choices and how the system was built are documented.",
+   "evidence_hint": "Design records, model cards or equivalent.",
+   "impact": 4
+  },
+  {
+   "id": "A.6.2.4",
+   "domain": "A.6 AI system life cycle",
+   "title": "Verification and validation",
+   "summary": "Verification and validation measures and criteria are defined and applied.",
+   "evidence_hint": "Test plans, evaluation results, acceptance criteria.",
+   "impact": 5
+  },
+  {
+   "id": "A.6.2.5",
+   "domain": "A.6 AI system life cycle",
+   "title": "Deployment",
+   "summary": "A deployment plan exists and requirements are met before release.",
+   "evidence_hint": "Deployment checklists and approvals.",
+   "impact": 4
+  },
+  {
+   "id": "A.6.2.6",
+   "domain": "A.6 AI system life cycle",
+   "title": "Operation and monitoring",
+   "summary": "Elements for ongoing operation, such as monitoring, repair, updates and support, are defined.",
+   "evidence_hint": "Monitoring dashboards, drift reports, support procedures.",
+   "impact": 5
+  },
+  {
+   "id": "A.6.2.7",
+   "domain": "A.6 AI system life cycle",
+   "title": "Technical documentation",
+   "summary": "Technical documentation is prepared for relevant interested parties.",
+   "evidence_hint": "User, operator and technical documentation sets.",
+   "impact": 3
+  },
+  {
+   "id": "A.6.2.8",
+   "domain": "A.6 AI system life cycle",
+   "title": "Event log recording",
+   "summary": "Event logs of AI system operation are recorded to the extent needed.",
+   "evidence_hint": "Log configuration and retention evidence.",
+   "impact": 4
+  },
+  {
+   "id": "A.7.2",
+   "domain": "A.7 Data for AI systems",
+   "title": "Data for development and enhancement",
+   "summary": "Data management processes are defined for AI development and improvement.",
+   "evidence_hint": "Data management procedure.",
+   "impact": 4
+  },
+  {
+   "id": "A.7.3",
+   "domain": "A.7 Data for AI systems",
+   "title": "Acquisition of data",
+   "summary": "How data is acquired and selected is determined and documented.",
+   "evidence_hint": "Acquisition records and licences.",
+   "impact": 4
+  },
+  {
+   "id": "A.7.4",
+   "domain": "A.7 Data for AI systems",
+   "title": "Quality of data",
+   "summary": "Data quality requirements are defined and met for AI systems.",
+   "evidence_hint": "Data quality criteria and check results.",
+   "impact": 5
+  },
+  {
+   "id": "A.7.5",
+   "domain": "A.7 Data for AI systems",
+   "title": "Data provenance",
+   "summary": "The origin and history of data is recorded.",
+   "evidence_hint": "Lineage or provenance records.",
+   "impact": 4
+  },
+  {
+   "id": "A.7.6",
+   "domain": "A.7 Data for AI systems",
+   "title": "Data preparation",
+   "summary": "Data preparation methods and criteria are defined and documented.",
+   "evidence_hint": "Preparation pipeline documentation.",
+   "impact": 3
+  },
+  {
+   "id": "A.8.2",
+   "domain": "A.8 Information for interested parties",
+   "title": "System documentation and information for users",
+   "summary": "Information users need to understand and use the AI system properly is provided.",
+   "evidence_hint": "User guides, limitations and disclosures.",
+   "impact": 4
+  },
+  {
+   "id": "A.8.3",
+   "domain": "A.8 Information for interested parties",
+   "title": "External reporting",
+   "summary": "A way exists for outside parties to report adverse impacts.",
+   "evidence_hint": "External contact channel and handling procedure.",
+   "impact": 3
+  },
+  {
+   "id": "A.8.4",
+   "domain": "A.8 Information for interested parties",
+   "title": "Communication of incidents",
+   "summary": "A process is defined for telling interested parties about AI incidents.",
+   "evidence_hint": "Incident communication procedure and examples.",
+   "impact": 4
+  },
+  {
+   "id": "A.8.5",
+   "domain": "A.8 Information for interested parties",
+   "title": "Information for interested parties",
+   "summary": "Information duties to interested parties, including legal ones, are identified and met.",
+   "evidence_hint": "Register of obligations and communications.",
+   "impact": 3
+  },
+  {
+   "id": "A.9.2",
+   "domain": "A.9 Use of AI systems",
+   "title": "Processes for responsible use",
+   "summary": "Processes for responsible use of AI systems are defined and documented.",
+   "evidence_hint": "Acceptable use procedures for AI.",
+   "impact": 5
+  },
+  {
+   "id": "A.9.3",
+   "domain": "A.9 Use of AI systems",
+   "title": "Objectives for responsible use",
+   "summary": "Objectives guiding responsible use of AI are identified.",
+   "evidence_hint": "Documented use objectives.",
+   "impact": 3
+  },
+  {
+   "id": "A.9.4",
+   "domain": "A.9 Use of AI systems",
+   "title": "Intended use",
+   "summary": "AI systems are used according to their intended use and documentation.",
+   "evidence_hint": "Controls that prevent or detect out-of-scope use.",
+   "impact": 4
+  },
+  {
+   "id": "A.10.2",
+   "domain": "A.10 Third-party and customer relationships",
+   "title": "Allocating responsibilities",
+   "summary": "Responsibilities between the organisation, partners, suppliers and customers are allocated.",
+   "evidence_hint": "Responsibility matrix, contracts.",
+   "impact": 4
+  },
+  {
+   "id": "A.10.3",
+   "domain": "A.10 Third-party and customer relationships",
+   "title": "Suppliers",
+   "summary": "A process makes sure supplied AI services and components fit the organisation's responsible AI approach.",
+   "evidence_hint": "Supplier assessment records and contract terms.",
+   "impact": 5
+  },
+  {
+   "id": "A.10.4",
+   "domain": "A.10 Third-party and customer relationships",
+   "title": "Customers",
+   "summary": "Customer needs and expectations for responsible AI are considered.",
+   "evidence_hint": "Customer requirement handling and feedback records.",
+   "impact": 3
+  }
+ ]
+}

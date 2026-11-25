@@ -1,0 +1,748 @@
+{
+ "framework": "HIPAA Security, Privacy and Breach Notification Rules (45 CFR Parts 160 and 164)",
+ "version": "Rules as in force when this file was written; later amendments are not reflected",
+ "note": "Citations follow 45 CFR Part 164. Titles are shortened and summaries are paraphrases written for this tool, not the regulatory text. Use the official text at hhs.gov and ecfr.gov for authoritative wording. 'Addressable' does not mean optional.",
+ "gating_controls": [
+  "164.308(a)(1)(ii)(A)",
+  "164.308(a)(1)(ii)(B)",
+  "164.308(a)(2)",
+  "164.308(b)(1)",
+  "164.530(a)",
+  "164.530(b)",
+  "164.402"
+ ],
+ "foundational_controls": [
+  "164.308(a)(1)(ii)(A)",
+  "164.308(a)(1)(ii)(B)",
+  "164.308(a)(2)",
+  "164.308(b)(1)",
+  "164.530(a)",
+  "164.530(b)",
+  "164.402",
+  "164.308(a)(6)(ii)",
+  "164.308(a)(7)(ii)(A)",
+  "164.316(a)"
+ ],
+ "controls": [
+  {
+   "id": "164.308(a)(1)(ii)(A)",
+   "domain": "Administrative safeguards (164.308)",
+   "title": "Risk analysis",
+   "summary": "Carry out an accurate and thorough assessment of the risks and vulnerabilities to the confidentiality, integrity and availability of all electronic protected health information (ePHI) the organisation holds.",
+   "evidence_hint": "A dated, enterprise-wide risk analysis covering every system that creates, receives, stores or sends ePHI: threats, vulnerabilities, likelihood, impact, risk ratings, and evidence it is repeated after major changes.",
+   "impact": 5,
+   "requirement": "Required"
+  },
+  {
+   "id": "164.308(a)(1)(ii)(B)",
+   "domain": "Administrative safeguards (164.308)",
+   "title": "Risk management",
+   "summary": "Put security measures in place that reduce the risks found in the analysis to a reasonable and appropriate level.",
+   "evidence_hint": "Risk treatment plan or register with owners and dates, remediation tracking, and sign-off for any accepted risk.",
+   "impact": 5,
+   "requirement": "Required"
+  },
+  {
+   "id": "164.308(a)(1)(ii)(C)",
+   "domain": "Administrative safeguards (164.308)",
+   "title": "Sanction policy",
+   "summary": "Apply appropriate sanctions to workforce members who do not comply with the organisation's security policies and procedures.",
+   "evidence_hint": "Sanction policy, and HR records showing it is applied.",
+   "impact": 3,
+   "requirement": "Required"
+  },
+  {
+   "id": "164.308(a)(1)(ii)(D)",
+   "domain": "Administrative safeguards (164.308)",
+   "title": "Information system activity review",
+   "summary": "Regularly review records of system activity such as audit logs, access reports and security incident tracking reports.",
+   "evidence_hint": "Log review procedure with frequency, and dated review records or SIEM reports.",
+   "impact": 4,
+   "requirement": "Required"
+  },
+  {
+   "id": "164.308(a)(2)",
+   "domain": "Administrative safeguards (164.308)",
+   "title": "Assigned security responsibility",
+   "summary": "Name the security official who is responsible for developing and implementing the security policies and procedures.",
+   "evidence_hint": "Appointment letter or job description naming the security official, and an organisation chart.",
+   "impact": 5,
+   "requirement": "Required"
+  },
+  {
+   "id": "164.308(a)(3)(ii)(A)",
+   "domain": "Administrative safeguards (164.308)",
+   "title": "Authorization and/or supervision",
+   "summary": "Have procedures to authorise or supervise workforce members who work with ePHI or in places where it might be accessed.",
+   "evidence_hint": "Supervision procedure, role definitions, and supervisor sign-offs for staff who access ePHI.",
+   "impact": 3,
+   "requirement": "Addressable"
+  },
+  {
+   "id": "164.308(a)(3)(ii)(B)",
+   "domain": "Administrative safeguards (164.308)",
+   "title": "Workforce clearance procedure",
+   "summary": "Have procedures to decide that a workforce member's access to ePHI is appropriate.",
+   "evidence_hint": "Onboarding checklist covering background checks or screening and access approval.",
+   "impact": 3,
+   "requirement": "Addressable"
+  },
+  {
+   "id": "164.308(a)(3)(ii)(C)",
+   "domain": "Administrative safeguards (164.308)",
+   "title": "Termination procedures",
+   "summary": "Have procedures to end access to ePHI when a person leaves or when access is no longer appropriate.",
+   "evidence_hint": "Offboarding checklist, access removal tickets with timings, and returned-asset records.",
+   "impact": 4,
+   "requirement": "Addressable"
+  },
+  {
+   "id": "164.308(a)(4)(ii)(A)",
+   "domain": "Administrative safeguards (164.308)",
+   "title": "Isolating health care clearinghouse functions",
+   "summary": "If a clearinghouse is part of a larger organisation, protect the clearinghouse's ePHI from unauthorised access by the rest of the organisation.",
+   "evidence_hint": "Applies only to clearinghouses. Others should record why it is not applicable.",
+   "impact": 2,
+   "requirement": "Required"
+  },
+  {
+   "id": "164.308(a)(4)(ii)(B)",
+   "domain": "Administrative safeguards (164.308)",
+   "title": "Access authorization",
+   "summary": "Have policies for granting access to ePHI, for example through a workstation, transaction, programme or process.",
+   "evidence_hint": "Access request and approval records, and a role-based access matrix.",
+   "impact": 4,
+   "requirement": "Addressable"
+  },
+  {
+   "id": "164.308(a)(4)(ii)(C)",
+   "domain": "Administrative safeguards (164.308)",
+   "title": "Access establishment and modification",
+   "summary": "Have policies to set up, document, review and change a user's right to access ePHI.",
+   "evidence_hint": "Periodic access review records and change tickets.",
+   "impact": 3,
+   "requirement": "Addressable"
+  },
+  {
+   "id": "164.308(a)(5)(ii)(A)",
+   "domain": "Administrative safeguards (164.308)",
+   "title": "Security reminders",
+   "summary": "Issue periodic security reminders to the workforce.",
+   "evidence_hint": "Newsletters, intranet posts, phishing simulation notices or posters with dates.",
+   "impact": 2,
+   "requirement": "Addressable"
+  },
+  {
+   "id": "164.308(a)(5)(ii)(B)",
+   "domain": "Administrative safeguards (164.308)",
+   "title": "Protection from malicious software",
+   "summary": "Have procedures to guard against, detect and report malicious software.",
+   "evidence_hint": "Anti-malware or EDR policy and deployment evidence, and alert handling records.",
+   "impact": 4,
+   "requirement": "Addressable"
+  },
+  {
+   "id": "164.308(a)(5)(ii)(C)",
+   "domain": "Administrative safeguards (164.308)",
+   "title": "Log-in monitoring",
+   "summary": "Have procedures to monitor log-in attempts and report discrepancies.",
+   "evidence_hint": "Failed log-in alerting rules, lockout settings and review records.",
+   "impact": 3,
+   "requirement": "Addressable"
+  },
+  {
+   "id": "164.308(a)(5)(ii)(D)",
+   "domain": "Administrative safeguards (164.308)",
+   "title": "Password management",
+   "summary": "Have procedures to create, change and safeguard passwords.",
+   "evidence_hint": "Password or authentication standard, and system configuration showing it is enforced.",
+   "impact": 3,
+   "requirement": "Addressable"
+  },
+  {
+   "id": "164.308(a)(6)(ii)",
+   "domain": "Administrative safeguards (164.308)",
+   "title": "Security incident response and reporting",
+   "summary": "Identify and respond to suspected or known security incidents, reduce their harmful effects, and document the incidents and outcomes.",
+   "evidence_hint": "Incident response plan, incident log, and post-incident reports with lessons learned.",
+   "impact": 5,
+   "requirement": "Required"
+  },
+  {
+   "id": "164.308(a)(7)(ii)(A)",
+   "domain": "Administrative safeguards (164.308)",
+   "title": "Data backup plan",
+   "summary": "Create and maintain retrievable exact copies of ePHI.",
+   "evidence_hint": "Backup policy and schedule, backup job reports, and restore test results.",
+   "impact": 5,
+   "requirement": "Required"
+  },
+  {
+   "id": "164.308(a)(7)(ii)(B)",
+   "domain": "Administrative safeguards (164.308)",
+   "title": "Disaster recovery plan",
+   "summary": "Have procedures to restore any loss of data.",
+   "evidence_hint": "Disaster recovery plan with recovery objectives, roles, and test records.",
+   "impact": 5,
+   "requirement": "Required"
+  },
+  {
+   "id": "164.308(a)(7)(ii)(C)",
+   "domain": "Administrative safeguards (164.308)",
+   "title": "Emergency mode operation plan",
+   "summary": "Have procedures that let critical processes continue to protect ePHI while operating in emergency mode.",
+   "evidence_hint": "Emergency operations plan, downtime procedures and contact lists.",
+   "impact": 4,
+   "requirement": "Required"
+  },
+  {
+   "id": "164.308(a)(7)(ii)(D)",
+   "domain": "Administrative safeguards (164.308)",
+   "title": "Testing and revision procedures",
+   "summary": "Test and revise contingency plans periodically.",
+   "evidence_hint": "Exercise or test reports and plan revision history.",
+   "impact": 3,
+   "requirement": "Addressable"
+  },
+  {
+   "id": "164.308(a)(7)(ii)(E)",
+   "domain": "Administrative safeguards (164.308)",
+   "title": "Applications and data criticality analysis",
+   "summary": "Assess how critical each application and data set is to the other parts of the contingency plan.",
+   "evidence_hint": "System criticality ranking or business impact analysis.",
+   "impact": 3,
+   "requirement": "Addressable"
+  },
+  {
+   "id": "164.308(a)(8)",
+   "domain": "Administrative safeguards (164.308)",
+   "title": "Evaluation",
+   "summary": "Carry out periodic technical and non-technical evaluations of whether the security policies and procedures meet the Security Rule, and repeat them after environmental or operational changes.",
+   "evidence_hint": "Internal audit reports, vulnerability scans, penetration tests, and evaluations following major changes.",
+   "impact": 4,
+   "requirement": "Required"
+  },
+  {
+   "id": "164.308(b)(1)",
+   "domain": "Administrative safeguards (164.308)",
+   "title": "Business associate contracts and other arrangements",
+   "summary": "Allow a business associate to create, receive, maintain or transmit ePHI only after getting satisfactory assurances, documented in a written contract.",
+   "evidence_hint": "Inventory of business associates, and signed business associate agreements for each.",
+   "impact": 5,
+   "requirement": "Required"
+  },
+  {
+   "id": "164.310(a)(2)(i)",
+   "domain": "Physical safeguards (164.310)",
+   "title": "Contingency operations",
+   "summary": "Have procedures that allow facility access to support restoring lost data under the disaster recovery and emergency plans.",
+   "evidence_hint": "Procedures for emergency facility access and the people authorised to use them.",
+   "impact": 3,
+   "requirement": "Addressable"
+  },
+  {
+   "id": "164.310(a)(2)(ii)",
+   "domain": "Physical safeguards (164.310)",
+   "title": "Facility security plan",
+   "summary": "Have policies to protect the facility and its equipment from unauthorised physical access, tampering and theft.",
+   "evidence_hint": "Facility security plan, door access system records, visitor logs and CCTV policy.",
+   "impact": 4,
+   "requirement": "Addressable"
+  },
+  {
+   "id": "164.310(a)(2)(iii)",
+   "domain": "Physical safeguards (164.310)",
+   "title": "Access control and validation procedures",
+   "summary": "Have procedures to control and validate people's access to facilities based on their role, including visitor control.",
+   "evidence_hint": "Badge or key issuance records, visitor sign-in process and access reviews.",
+   "impact": 3,
+   "requirement": "Addressable"
+  },
+  {
+   "id": "164.310(a)(2)(iv)",
+   "domain": "Physical safeguards (164.310)",
+   "title": "Maintenance records",
+   "summary": "Document repairs and changes to the physical parts of the facility that relate to security, such as hardware, walls, doors and locks.",
+   "evidence_hint": "Maintenance log for security-related repairs.",
+   "impact": 2,
+   "requirement": "Addressable"
+  },
+  {
+   "id": "164.310(b)",
+   "domain": "Physical safeguards (164.310)",
+   "title": "Workstation use",
+   "summary": "Set out the proper functions, manner of use and physical surroundings of workstations that can access ePHI.",
+   "evidence_hint": "Workstation use policy covering screen privacy and permitted tasks.",
+   "impact": 3,
+   "requirement": "Required"
+  },
+  {
+   "id": "164.310(c)",
+   "domain": "Physical safeguards (164.310)",
+   "title": "Workstation security",
+   "summary": "Put physical safeguards on all workstations that can access ePHI so only authorised users can use them.",
+   "evidence_hint": "Cable locks, locked rooms, screen privacy filters, and auto-lock settings.",
+   "impact": 4,
+   "requirement": "Required"
+  },
+  {
+   "id": "164.310(d)(2)(i)",
+   "domain": "Physical safeguards (164.310)",
+   "title": "Media disposal",
+   "summary": "Have policies for the final disposal of ePHI and of the hardware or media it was stored on.",
+   "evidence_hint": "Disposal policy, certificates of destruction and sanitisation records.",
+   "impact": 4,
+   "requirement": "Required"
+  },
+  {
+   "id": "164.310(d)(2)(ii)",
+   "domain": "Physical safeguards (164.310)",
+   "title": "Media re-use",
+   "summary": "Have procedures to remove ePHI from electronic media before it is made available for re-use.",
+   "evidence_hint": "Wiping standard and records of re-used devices being sanitised.",
+   "impact": 4,
+   "requirement": "Required"
+  },
+  {
+   "id": "164.310(d)(2)(iii)",
+   "domain": "Physical safeguards (164.310)",
+   "title": "Accountability for hardware and media",
+   "summary": "Keep a record of the movements of hardware and electronic media and who is responsible for them.",
+   "evidence_hint": "Asset inventory with custodians, and a device check-in and check-out log.",
+   "impact": 3,
+   "requirement": "Addressable"
+  },
+  {
+   "id": "164.310(d)(2)(iv)",
+   "domain": "Physical safeguards (164.310)",
+   "title": "Data backup and storage before equipment moves",
+   "summary": "Create a retrievable exact copy of ePHI, when needed, before moving equipment.",
+   "evidence_hint": "Procedure and examples of backups taken before moves or replacements.",
+   "impact": 3,
+   "requirement": "Addressable"
+  },
+  {
+   "id": "164.312(a)(2)(i)",
+   "domain": "Technical safeguards (164.312)",
+   "title": "Unique user identification",
+   "summary": "Give each user a unique name or number so their activity can be identified and tracked.",
+   "evidence_hint": "Identity management configuration, and a user list showing no shared accounts.",
+   "impact": 5,
+   "requirement": "Required"
+  },
+  {
+   "id": "164.312(a)(2)(ii)",
+   "domain": "Technical safeguards (164.312)",
+   "title": "Emergency access procedure",
+   "summary": "Have procedures for getting access to necessary ePHI during an emergency.",
+   "evidence_hint": "Break-glass procedure, and records of its use and review.",
+   "impact": 4,
+   "requirement": "Required"
+  },
+  {
+   "id": "164.312(a)(2)(iii)",
+   "domain": "Technical safeguards (164.312)",
+   "title": "Automatic logoff",
+   "summary": "Have electronic procedures that end an electronic session after a set period of inactivity.",
+   "evidence_hint": "Session timeout settings or group policy screenshots.",
+   "impact": 3,
+   "requirement": "Addressable"
+  },
+  {
+   "id": "164.312(a)(2)(iv)",
+   "domain": "Technical safeguards (164.312)",
+   "title": "Encryption and decryption of ePHI at rest",
+   "summary": "Have a mechanism to encrypt and decrypt ePHI stored on systems and devices.",
+   "evidence_hint": "Disk and database encryption settings, key management procedure, and a device encryption report.",
+   "impact": 5,
+   "requirement": "Addressable"
+  },
+  {
+   "id": "164.312(b)",
+   "domain": "Technical safeguards (164.312)",
+   "title": "Audit controls",
+   "summary": "Use hardware, software or procedures that record and examine activity in the systems that contain or use ePHI.",
+   "evidence_hint": "Logging configuration for ePHI systems, retention settings and sample reviewed logs.",
+   "impact": 5,
+   "requirement": "Required"
+  },
+  {
+   "id": "164.312(c)(2)",
+   "domain": "Technical safeguards (164.312)",
+   "title": "Mechanism to authenticate ePHI",
+   "summary": "Have electronic mechanisms to confirm that ePHI has not been altered or destroyed in an unauthorised way.",
+   "evidence_hint": "Integrity checks such as hashing, database controls or file integrity monitoring.",
+   "impact": 3,
+   "requirement": "Addressable"
+  },
+  {
+   "id": "164.312(d)",
+   "domain": "Technical safeguards (164.312)",
+   "title": "Person or entity authentication",
+   "summary": "Verify that a person or entity seeking access to ePHI is the one claimed.",
+   "evidence_hint": "Authentication standard, multi-factor authentication settings and remote access configuration.",
+   "impact": 5,
+   "requirement": "Required"
+  },
+  {
+   "id": "164.312(e)(2)(i)",
+   "domain": "Technical safeguards (164.312)",
+   "title": "Transmission integrity controls",
+   "summary": "Have security measures to make sure ePHI sent over a network is not improperly modified without detection.",
+   "evidence_hint": "Secure transmission configuration, such as TLS settings and signed messages.",
+   "impact": 3,
+   "requirement": "Addressable"
+  },
+  {
+   "id": "164.312(e)(2)(ii)",
+   "domain": "Technical safeguards (164.312)",
+   "title": "Encryption of ePHI in transit",
+   "summary": "Encrypt ePHI whenever it is sent over an electronic network, where reasonable and appropriate.",
+   "evidence_hint": "TLS configuration, VPN settings, secure email and file transfer standards.",
+   "impact": 5,
+   "requirement": "Addressable"
+  },
+  {
+   "id": "164.314(a)(2)(i)",
+   "domain": "Organizational requirements (164.314)",
+   "title": "Business associate contract content",
+   "summary": "Business associate contracts must require the associate to comply with the Security Rule, to report security incidents including breaches of unsecured PHI, and to safeguard ePHI.",
+   "evidence_hint": "Business associate agreement template and signed examples with the required clauses.",
+   "impact": 5,
+   "requirement": "Required"
+  },
+  {
+   "id": "164.314(a)(2)(iii)",
+   "domain": "Organizational requirements (164.314)",
+   "title": "Subcontractor arrangements",
+   "summary": "A business associate's contracts with its subcontractors must require them to protect ePHI in the same way.",
+   "evidence_hint": "Subcontractor agreements, or the associate's confirmation of flow-down terms.",
+   "impact": 4,
+   "requirement": "Required"
+  },
+  {
+   "id": "164.314(b)(2)",
+   "domain": "Organizational requirements (164.314)",
+   "title": "Group health plan documents",
+   "summary": "Plan documents of a group health plan must require the plan sponsor to protect ePHI it receives. Applies to group health plans only.",
+   "evidence_hint": "Plan amendment text. Others should record why it is not applicable.",
+   "impact": 2,
+   "requirement": "Required"
+  },
+  {
+   "id": "164.316(a)",
+   "domain": "Policies and documentation (164.316)",
+   "title": "Policies and procedures",
+   "summary": "Put in place reasonable and appropriate written policies and procedures to meet the Security Rule.",
+   "evidence_hint": "A current set of approved security policies and procedures mapped to the Security Rule.",
+   "impact": 5,
+   "requirement": "Required"
+  },
+  {
+   "id": "164.316(b)(2)(i)",
+   "domain": "Policies and documentation (164.316)",
+   "title": "Documentation retention (six years)",
+   "summary": "Keep required documentation, including records of actions and assessments, for six years from the date it was created or last in effect.",
+   "evidence_hint": "Retention schedule showing a six-year minimum, and examples of archived records.",
+   "impact": 4,
+   "requirement": "Required"
+  },
+  {
+   "id": "164.316(b)(2)(ii)",
+   "domain": "Policies and documentation (164.316)",
+   "title": "Documentation availability",
+   "summary": "Make documentation available to the people who are responsible for carrying out the procedures.",
+   "evidence_hint": "Intranet location or document system access for policies and procedures.",
+   "impact": 2,
+   "requirement": "Required"
+  },
+  {
+   "id": "164.316(b)(2)(iii)",
+   "domain": "Policies and documentation (164.316)",
+   "title": "Documentation updates",
+   "summary": "Review documentation periodically and update it in response to environmental or operational changes that affect ePHI.",
+   "evidence_hint": "Review history, version control and change records.",
+   "impact": 3,
+   "requirement": "Required"
+  },
+  {
+   "id": "164.502(a)",
+   "domain": "Privacy Rule (164.502-164.530)",
+   "title": "Uses and disclosures of PHI: general rule",
+   "summary": "Use or disclose protected health information only as the Privacy Rule permits or requires, or as the individual authorises.",
+   "evidence_hint": "Privacy policy listing permitted uses and disclosures, and workforce guidance.",
+   "impact": 5,
+   "requirement": "Standard"
+  },
+  {
+   "id": "164.502(b)",
+   "domain": "Privacy Rule (164.502-164.530)",
+   "title": "Minimum necessary",
+   "summary": "Limit uses, disclosures and requests of PHI to the minimum necessary for the purpose, and define role-based access to PHI.",
+   "evidence_hint": "Minimum necessary policy, role-based access definitions and routine request protocols.",
+   "impact": 4,
+   "requirement": "Standard"
+  },
+  {
+   "id": "164.504(e)",
+   "domain": "Privacy Rule (164.502-164.530)",
+   "title": "Business associate contracts (privacy terms)",
+   "summary": "Share PHI with a business associate only under a contract that sets permitted uses and requires safeguards, subcontractor flow-down and return or destruction of PHI.",
+   "evidence_hint": "Business associate agreement template and signed agreements with privacy terms.",
+   "impact": 5,
+   "requirement": "Standard"
+  },
+  {
+   "id": "164.506",
+   "domain": "Privacy Rule (164.502-164.530)",
+   "title": "Treatment, payment and health care operations",
+   "summary": "Handle uses and disclosures for treatment, payment and health care operations, including those allowed without the individual's authorisation.",
+   "evidence_hint": "Policy on routine disclosures for treatment, payment and operations.",
+   "impact": 3,
+   "requirement": "Standard"
+  },
+  {
+   "id": "164.508",
+   "domain": "Privacy Rule (164.502-164.530)",
+   "title": "Authorizations",
+   "summary": "Obtain a valid written authorisation for uses and disclosures that need one, such as most marketing and sale of PHI, and keep a record.",
+   "evidence_hint": "Authorisation form with the required elements, and the process for revocation and record keeping.",
+   "impact": 5,
+   "requirement": "Standard"
+  },
+  {
+   "id": "164.508(a)(3)",
+   "domain": "Privacy Rule (164.502-164.530)",
+   "title": "Marketing and fundraising",
+   "summary": "Follow the rules for marketing communications and fundraising, including opt-out for fundraising.",
+   "evidence_hint": "Marketing and fundraising policy and opt-out process.",
+   "impact": 2,
+   "requirement": "Standard"
+  },
+  {
+   "id": "164.510",
+   "domain": "Privacy Rule (164.502-164.530)",
+   "title": "Opportunity to agree or object",
+   "summary": "Give individuals the chance to agree or object before disclosing PHI in facility directories or to family and others involved in care.",
+   "evidence_hint": "Policy and forms for directory and family involvement disclosures.",
+   "impact": 2,
+   "requirement": "Standard"
+  },
+  {
+   "id": "164.512",
+   "domain": "Privacy Rule (164.502-164.530)",
+   "title": "Uses and disclosures without authorization",
+   "summary": "Follow the conditions for disclosures required by law, for public health, abuse reporting, health oversight, judicial proceedings, law enforcement and research.",
+   "evidence_hint": "Procedures and logs for legally required or public interest disclosures.",
+   "impact": 4,
+   "requirement": "Standard"
+  },
+  {
+   "id": "164.514(a)-(b)",
+   "domain": "Privacy Rule (164.502-164.530)",
+   "title": "De-identification",
+   "summary": "Use an approved method to de-identify PHI before treating it as de-identified.",
+   "evidence_hint": "De-identification procedure (safe harbour or expert determination) and examples.",
+   "impact": 3,
+   "requirement": "Standard"
+  },
+  {
+   "id": "164.514(e)",
+   "domain": "Privacy Rule (164.502-164.530)",
+   "title": "Limited data sets and data use agreements",
+   "summary": "Disclose a limited data set only for research, public health or operations and under a data use agreement.",
+   "evidence_hint": "Data use agreement template and signed agreements.",
+   "impact": 2,
+   "requirement": "Standard"
+  },
+  {
+   "id": "164.520",
+   "domain": "Privacy Rule (164.502-164.530)",
+   "title": "Notice of privacy practices",
+   "summary": "Provide a notice of privacy practices, obtain acknowledgement where required, and post it on the website and in the facility.",
+   "evidence_hint": "Current notice, website page, and acknowledgement process.",
+   "impact": 4,
+   "requirement": "Standard"
+  },
+  {
+   "id": "164.522",
+   "domain": "Privacy Rule (164.502-164.530)",
+   "title": "Restrictions and confidential communications",
+   "summary": "Let individuals request restrictions and confidential communications, and honour required restrictions such as those for self-paid services.",
+   "evidence_hint": "Request forms, process and tracking log.",
+   "impact": 3,
+   "requirement": "Standard"
+  },
+  {
+   "id": "164.524",
+   "domain": "Privacy Rule (164.502-164.530)",
+   "title": "Right of access",
+   "summary": "Give individuals access to their PHI in the form they ask for, within 30 days, at a reasonable cost-based fee.",
+   "evidence_hint": "Access request procedure, response time tracking and fee schedule.",
+   "impact": 5,
+   "requirement": "Standard"
+  },
+  {
+   "id": "164.526",
+   "domain": "Privacy Rule (164.502-164.530)",
+   "title": "Amendment of PHI",
+   "summary": "Let individuals request amendment of their records and respond within the required time.",
+   "evidence_hint": "Amendment procedure, forms and request log.",
+   "impact": 3,
+   "requirement": "Standard"
+  },
+  {
+   "id": "164.528",
+   "domain": "Privacy Rule (164.502-164.530)",
+   "title": "Accounting of disclosures",
+   "summary": "Keep and provide an accounting of certain disclosures of PHI.",
+   "evidence_hint": "Disclosure log and the process for responding to accounting requests.",
+   "impact": 3,
+   "requirement": "Standard"
+  },
+  {
+   "id": "164.530(a)",
+   "domain": "Privacy Rule (164.502-164.530)",
+   "title": "Privacy official and contact person",
+   "summary": "Designate a privacy official and a contact person for complaints and information.",
+   "evidence_hint": "Appointment letter, job description and published contact details.",
+   "impact": 5,
+   "requirement": "Standard"
+  },
+  {
+   "id": "164.530(b)",
+   "domain": "Privacy Rule (164.502-164.530)",
+   "title": "Workforce privacy training",
+   "summary": "Train all workforce members on privacy policies and procedures, and when material changes occur.",
+   "evidence_hint": "Training materials, attendance records and completion rates.",
+   "impact": 5,
+   "requirement": "Standard"
+  },
+  {
+   "id": "164.530(c)",
+   "domain": "Privacy Rule (164.502-164.530)",
+   "title": "Administrative, technical and physical safeguards for PHI",
+   "summary": "Apply appropriate safeguards to protect the privacy of PHI, including paper and verbal information.",
+   "evidence_hint": "Clean desk, shredding, secure printing and fax procedures.",
+   "impact": 4,
+   "requirement": "Standard"
+  },
+  {
+   "id": "164.530(d)",
+   "domain": "Privacy Rule (164.502-164.530)",
+   "title": "Complaints process",
+   "summary": "Provide a process for individuals to complain about the organisation's privacy practices and document complaints and outcomes.",
+   "evidence_hint": "Complaint procedure, complaint log and resolution records.",
+   "impact": 3,
+   "requirement": "Standard"
+  },
+  {
+   "id": "164.530(e)",
+   "domain": "Privacy Rule (164.502-164.530)",
+   "title": "Workforce sanctions (privacy)",
+   "summary": "Apply and document sanctions against workforce members who violate privacy policies.",
+   "evidence_hint": "Sanction policy and records of sanctions applied.",
+   "impact": 3,
+   "requirement": "Standard"
+  },
+  {
+   "id": "164.530(f)",
+   "domain": "Privacy Rule (164.502-164.530)",
+   "title": "Mitigation",
+   "summary": "Reduce, as far as practicable, any harmful effect of an improper use or disclosure of PHI.",
+   "evidence_hint": "Mitigation steps in incident procedures and examples.",
+   "impact": 3,
+   "requirement": "Standard"
+  },
+  {
+   "id": "164.530(g)",
+   "domain": "Privacy Rule (164.502-164.530)",
+   "title": "No retaliation and no waiver of rights",
+   "summary": "Do not retaliate against people who exercise their rights, and do not require individuals to waive their rights as a condition of care.",
+   "evidence_hint": "Non-retaliation policy and statement in the notice of privacy practices.",
+   "impact": 2,
+   "requirement": "Standard"
+  },
+  {
+   "id": "164.530(i)",
+   "domain": "Privacy Rule (164.502-164.530)",
+   "title": "Privacy policies and procedures",
+   "summary": "Maintain written privacy policies and procedures that follow the Privacy Rule and update them when the law or practices change.",
+   "evidence_hint": "Approved privacy policies, version history and change log.",
+   "impact": 4,
+   "requirement": "Standard"
+  },
+  {
+   "id": "164.530(j)",
+   "domain": "Privacy Rule (164.502-164.530)",
+   "title": "Privacy documentation retention",
+   "summary": "Keep required privacy documentation for six years.",
+   "evidence_hint": "Retention schedule and archived records.",
+   "impact": 3,
+   "requirement": "Standard"
+  },
+  {
+   "id": "164.402",
+   "domain": "Breach Notification Rule (164.400-164.414)",
+   "title": "Breach definition and risk assessment",
+   "summary": "Treat an impermissible use or disclosure of PHI as a breach unless a documented risk assessment shows a low probability that it was compromised, considering four factors.",
+   "evidence_hint": "Breach risk assessment procedure and template, and completed examples.",
+   "impact": 5,
+   "requirement": "Standard"
+  },
+  {
+   "id": "164.404",
+   "domain": "Breach Notification Rule (164.400-164.414)",
+   "title": "Notification to individuals",
+   "summary": "Notify affected individuals without unreasonable delay and no later than 60 days after discovery, with the required content.",
+   "evidence_hint": "Breach notification procedure, letter template and examples.",
+   "impact": 5,
+   "requirement": "Standard"
+  },
+  {
+   "id": "164.406",
+   "domain": "Breach Notification Rule (164.400-164.414)",
+   "title": "Notification to the media",
+   "summary": "Notify prominent media outlets when a breach affects more than 500 residents of a state or jurisdiction.",
+   "evidence_hint": "Procedure and template for media notice.",
+   "impact": 3,
+   "requirement": "Standard"
+  },
+  {
+   "id": "164.408",
+   "domain": "Breach Notification Rule (164.400-164.414)",
+   "title": "Notification to the Secretary of HHS",
+   "summary": "Notify HHS at the same time as individuals for breaches of 500 or more, and within 60 days of the end of the calendar year for smaller breaches.",
+   "evidence_hint": "Procedure for HHS submissions and a log of breaches with notification dates.",
+   "impact": 4,
+   "requirement": "Standard"
+  },
+  {
+   "id": "164.410",
+   "domain": "Breach Notification Rule (164.400-164.414)",
+   "title": "Notification by a business associate",
+   "summary": "A business associate must notify the covered entity of a breach without unreasonable delay and within 60 days of discovery.",
+   "evidence_hint": "Business associate agreement clause and internal procedure for receiving notices.",
+   "impact": 4,
+   "requirement": "Standard"
+  },
+  {
+   "id": "164.412",
+   "domain": "Breach Notification Rule (164.400-164.414)",
+   "title": "Law enforcement delay",
+   "summary": "Delay notification when a law enforcement official states it would impede an investigation, and document the request.",
+   "evidence_hint": "Procedure for handling and recording law enforcement delay requests.",
+   "impact": 2,
+   "requirement": "Standard"
+  },
+  {
+   "id": "164.414",
+   "domain": "Breach Notification Rule (164.400-164.414)",
+   "title": "Burden of proof and breach documentation",
+   "summary": "Be able to show that required notifications were made or that an impermissible use or disclosure did not amount to a breach.",
+   "evidence_hint": "Breach log with assessments, notices and dates, kept for six years.",
+   "impact": 3,
+   "requirement": "Standard"
+  }
+ ]
+}

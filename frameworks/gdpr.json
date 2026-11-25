@@ -1,0 +1,335 @@
+{
+ "framework": "EU General Data Protection Regulation (Regulation 2016/679) - selected articles",
+ "version": "Regulation (EU) 2016/679 as published; later guidance and case law are not reflected",
+ "note": "Citations follow the Article numbers of the GDPR. Titles are shortened and summaries and evidence hints are paraphrases written for this tool, not the legal text. Use the official text on EUR-Lex for authoritative wording. This is a practical subset of operational articles; it omits recitals, Chapter VI-VII and IX-XI institutional and national-law articles, and it is not legal advice. Impact weights (1-5) are generic defaults.",
+ "controls": [
+  {
+   "id": "Art. 5(1)(a)",
+   "domain": "Principles (Art. 5-11)",
+   "title": "Lawfulness, fairness, transparency",
+   "summary": "Personal data is processed lawfully, fairly and in a way people can understand.",
+   "evidence_hint": "Record of processing with a lawful basis for each activity; privacy notices.",
+   "impact": 5
+  },
+  {
+   "id": "Art. 5(1)(b)",
+   "domain": "Principles (Art. 5-11)",
+   "title": "Purpose limitation",
+   "summary": "Data is collected for specified, explicit purposes and not reused in an incompatible way.",
+   "evidence_hint": "Documented purposes per activity; compatibility assessment for any new use.",
+   "impact": 4
+  },
+  {
+   "id": "Art. 5(1)(c)",
+   "domain": "Principles (Art. 5-11)",
+   "title": "Data minimisation",
+   "summary": "Only data that is adequate, relevant and necessary is collected.",
+   "evidence_hint": "Data-field reviews, form designs, minimisation checks in project approvals.",
+   "impact": 4
+  },
+  {
+   "id": "Art. 5(1)(d)",
+   "domain": "Principles (Art. 5-11)",
+   "title": "Accuracy",
+   "summary": "Data is kept accurate and up to date; wrong data is corrected or erased without delay.",
+   "evidence_hint": "Correction procedure, data quality checks, rectification logs.",
+   "impact": 3
+  },
+  {
+   "id": "Art. 5(1)(e)",
+   "domain": "Principles (Art. 5-11)",
+   "title": "Storage limitation",
+   "summary": "Data is kept in identifiable form no longer than needed.",
+   "evidence_hint": "Retention schedule, deletion or anonymisation logs, evidence of scheduled purges.",
+   "impact": 4
+  },
+  {
+   "id": "Art. 5(1)(f)",
+   "domain": "Principles (Art. 5-11)",
+   "title": "Integrity and confidentiality",
+   "summary": "Data is protected against unauthorised processing, loss and damage by suitable measures.",
+   "evidence_hint": "Information security policy, access control and encryption evidence (see Art. 32).",
+   "impact": 5
+  },
+  {
+   "id": "Art. 5(2)",
+   "domain": "Principles (Art. 5-11)",
+   "title": "Accountability",
+   "summary": "The organisation can demonstrate compliance with the principles.",
+   "evidence_hint": "Privacy programme, policies, records, audit and management reporting.",
+   "impact": 5
+  },
+  {
+   "id": "Art. 6",
+   "domain": "Principles (Art. 5-11)",
+   "title": "Lawful basis for processing",
+   "summary": "Each processing activity relies on a valid legal basis such as consent, contract, legal obligation or legitimate interests.",
+   "evidence_hint": "Lawful-basis register; legitimate interests assessments where used.",
+   "impact": 5
+  },
+  {
+   "id": "Art. 7",
+   "domain": "Principles (Art. 5-11)",
+   "title": "Conditions for consent",
+   "summary": "Where consent is the basis, it is freely given, specific, informed, unambiguous, provable and as easy to withdraw as to give.",
+   "evidence_hint": "Consent records with timestamp and wording; withdrawal mechanism.",
+   "impact": 5
+  },
+  {
+   "id": "Art. 8",
+   "domain": "Principles (Art. 5-11)",
+   "title": "Children's consent for online services",
+   "summary": "For online services offered directly to children, parental authorisation is obtained below the applicable age threshold.",
+   "evidence_hint": "Age-verification approach and parental consent flow, if children are targeted.",
+   "impact": 4
+  },
+  {
+   "id": "Art. 9",
+   "domain": "Principles (Art. 5-11)",
+   "title": "Special category data",
+   "summary": "Processing of health, biometric, genetic, political, religious and similar data has an extra condition and extra safeguards.",
+   "evidence_hint": "Special-category inventory, Art. 9 condition per activity, enhanced safeguards.",
+   "impact": 5
+  },
+  {
+   "id": "Art. 10",
+   "domain": "Principles (Art. 5-11)",
+   "title": "Criminal convictions data",
+   "summary": "Criminal conviction and offence data is processed only under official authority or legal authorisation.",
+   "evidence_hint": "Legal basis and safeguards for any such data.",
+   "impact": 3
+  },
+  {
+   "id": "Art. 11",
+   "domain": "Principles (Art. 5-11)",
+   "title": "Processing without identification",
+   "summary": "The organisation does not collect extra data just to identify people when it does not need to.",
+   "evidence_hint": "Statement of when identification is not required; how rights requests are handled then.",
+   "impact": 2
+  },
+  {
+   "id": "Art. 12",
+   "domain": "Data subject rights (Art. 12-23)",
+   "title": "Transparent communication and request handling",
+   "summary": "Information and responses to rights requests are clear, free of charge in general, and given within one month.",
+   "evidence_hint": "Rights-request procedure, request log with received and closed dates.",
+   "impact": 5
+  },
+  {
+   "id": "Art. 13-14",
+   "domain": "Data subject rights (Art. 12-23)",
+   "title": "Privacy notices",
+   "summary": "People are told who controls their data, why it is used, the legal basis, recipients, transfers, retention and their rights.",
+   "evidence_hint": "Published privacy notices for each audience; notice version history.",
+   "impact": 5
+  },
+  {
+   "id": "Art. 15",
+   "domain": "Data subject rights (Art. 12-23)",
+   "title": "Right of access",
+   "summary": "People can obtain confirmation of processing and a copy of their data with related information.",
+   "evidence_hint": "Access-request procedure, sample completed responses, identity-check method.",
+   "impact": 5
+  },
+  {
+   "id": "Art. 16",
+   "domain": "Data subject rights (Art. 12-23)",
+   "title": "Right to rectification",
+   "summary": "Inaccurate or incomplete data is corrected on request.",
+   "evidence_hint": "Rectification procedure and sample completed requests.",
+   "impact": 3
+  },
+  {
+   "id": "Art. 17",
+   "domain": "Data subject rights (Art. 12-23)",
+   "title": "Right to erasure",
+   "summary": "Data is erased on request where the conditions apply, including informing other recipients.",
+   "evidence_hint": "Erasure procedure, backup handling rule, sample completed requests.",
+   "impact": 4
+  },
+  {
+   "id": "Art. 18",
+   "domain": "Data subject rights (Art. 12-23)",
+   "title": "Right to restriction",
+   "summary": "Processing is restricted on request where the conditions apply.",
+   "evidence_hint": "Restriction procedure and technical means such as flags.",
+   "impact": 3
+  },
+  {
+   "id": "Art. 19",
+   "domain": "Data subject rights (Art. 12-23)",
+   "title": "Notification of rectification, erasure or restriction",
+   "summary": "Recipients of the data are told about corrections, erasures and restrictions.",
+   "evidence_hint": "Recipient notification procedure and logs.",
+   "impact": 2
+  },
+  {
+   "id": "Art. 20",
+   "domain": "Data subject rights (Art. 12-23)",
+   "title": "Right to data portability",
+   "summary": "Data supplied by the person under consent or contract can be given in a structured, machine-readable format.",
+   "evidence_hint": "Export function or procedure and sample export.",
+   "impact": 3
+  },
+  {
+   "id": "Art. 21",
+   "domain": "Data subject rights (Art. 12-23)",
+   "title": "Right to object",
+   "summary": "People can object to processing based on legitimate interests or public task, and always to direct marketing.",
+   "evidence_hint": "Objection procedure, marketing opt-out evidence.",
+   "impact": 4
+  },
+  {
+   "id": "Art. 22",
+   "domain": "Data subject rights (Art. 12-23)",
+   "title": "Automated decision-making and profiling",
+   "summary": "Decisions with legal or similar effect are not made solely by automated means without safeguards and human review.",
+   "evidence_hint": "Inventory of automated decisions, human review and appeal process.",
+   "impact": 4
+  },
+  {
+   "id": "Art. 24",
+   "domain": "Controller and processor (Art. 24-31)",
+   "title": "Controller responsibility",
+   "summary": "The controller applies technical and organisational measures and reviews them, based on risk.",
+   "evidence_hint": "Privacy governance framework, risk-based measures, periodic reviews.",
+   "impact": 4
+  },
+  {
+   "id": "Art. 25",
+   "domain": "Controller and processor (Art. 24-31)",
+   "title": "Data protection by design and by default",
+   "summary": "Privacy measures are built into systems and default settings collect and expose the minimum.",
+   "evidence_hint": "Design review checklist, default-settings review, project privacy sign-offs.",
+   "impact": 4
+  },
+  {
+   "id": "Art. 26",
+   "domain": "Controller and processor (Art. 24-31)",
+   "title": "Joint controllers",
+   "summary": "Joint controllers set out their respective responsibilities in an arrangement available to people.",
+   "evidence_hint": "Joint controller arrangements and published summary.",
+   "impact": 3
+  },
+  {
+   "id": "Art. 27",
+   "domain": "Controller and processor (Art. 24-31)",
+   "title": "EU representative",
+   "summary": "Organisations outside the EU that are in scope appoint a representative in the EU.",
+   "evidence_hint": "Representative appointment, where applicable.",
+   "impact": 2
+  },
+  {
+   "id": "Art. 28",
+   "domain": "Controller and processor (Art. 24-31)",
+   "title": "Processor contracts",
+   "summary": "Processors are used only with a contract containing the mandatory terms and with sufficient guarantees.",
+   "evidence_hint": "Processor register, signed data processing agreements, due-diligence records.",
+   "impact": 5
+  },
+  {
+   "id": "Art. 29",
+   "domain": "Controller and processor (Art. 24-31)",
+   "title": "Processing on instructions",
+   "summary": "People acting under the controller or processor handle data only on instructions.",
+   "evidence_hint": "Documented instructions, staff and contractor confidentiality terms.",
+   "impact": 3
+  },
+  {
+   "id": "Art. 30",
+   "domain": "Controller and processor (Art. 24-31)",
+   "title": "Records of processing activities",
+   "summary": "A written record of processing is kept and given to the regulator on request.",
+   "evidence_hint": "Current record of processing with required fields, review dates.",
+   "impact": 5
+  },
+  {
+   "id": "Art. 31",
+   "domain": "Controller and processor (Art. 24-31)",
+   "title": "Cooperation with the regulator",
+   "summary": "The organisation cooperates with the supervisory authority.",
+   "evidence_hint": "Regulator contact procedure and correspondence log.",
+   "impact": 2
+  },
+  {
+   "id": "Art. 32",
+   "domain": "Security and breaches (Art. 32-34)",
+   "title": "Security of processing",
+   "summary": "Appropriate technical and organisational security is in place, including encryption, resilience, recovery and regular testing.",
+   "evidence_hint": "Security policy, encryption, access control, backup and recovery tests, penetration test reports.",
+   "impact": 5
+  },
+  {
+   "id": "Art. 33",
+   "domain": "Security and breaches (Art. 32-34)",
+   "title": "Breach notification to the regulator",
+   "summary": "Personal data breaches are reported to the regulator within 72 hours where required, and all breaches are recorded.",
+   "evidence_hint": "Breach response procedure, breach register, sample notifications.",
+   "impact": 5
+  },
+  {
+   "id": "Art. 34",
+   "domain": "Security and breaches (Art. 32-34)",
+   "title": "Breach communication to individuals",
+   "summary": "People are told without undue delay when a breach is likely to pose a high risk to them.",
+   "evidence_hint": "Procedure with risk-assessment criteria and notice templates.",
+   "impact": 5
+  },
+  {
+   "id": "Art. 35",
+   "domain": "Impact assessment and DPO (Art. 35-39)",
+   "title": "Data protection impact assessment",
+   "summary": "A DPIA is carried out before high-risk processing, with consultation of the DPO.",
+   "evidence_hint": "DPIA procedure, screening criteria, completed DPIAs.",
+   "impact": 5
+  },
+  {
+   "id": "Art. 36",
+   "domain": "Impact assessment and DPO (Art. 35-39)",
+   "title": "Prior consultation",
+   "summary": "The regulator is consulted when a DPIA shows high residual risk that cannot be mitigated.",
+   "evidence_hint": "Escalation step in the DPIA procedure; any consultation records.",
+   "impact": 3
+  },
+  {
+   "id": "Art. 37",
+   "domain": "Impact assessment and DPO (Art. 35-39)",
+   "title": "Designation of a DPO",
+   "summary": "A data protection officer is designated where required and their details are published and notified.",
+   "evidence_hint": "DPO appointment, assessment of whether required, regulator notification.",
+   "impact": 4
+  },
+  {
+   "id": "Art. 38",
+   "domain": "Impact assessment and DPO (Art. 35-39)",
+   "title": "Position of the DPO",
+   "summary": "The DPO is involved properly, has resources and independence, and reports to top management.",
+   "evidence_hint": "DPO reporting line, resourcing, conflict-of-interest check.",
+   "impact": 4
+  },
+  {
+   "id": "Art. 39",
+   "domain": "Impact assessment and DPO (Art. 35-39)",
+   "title": "Tasks of the DPO",
+   "summary": "The DPO advises, monitors compliance, supports DPIAs, and acts as contact point for the regulator.",
+   "evidence_hint": "DPO work plan, advice records, monitoring reports.",
+   "impact": 3
+  },
+  {
+   "id": "Art. 44-46",
+   "domain": "International transfers (Art. 44-49)",
+   "title": "Transfers outside the EEA",
+   "summary": "Personal data is sent to third countries only under an adequacy decision or suitable safeguards such as standard contractual clauses.",
+   "evidence_hint": "Transfer inventory, SCCs or other mechanism, transfer impact assessments.",
+   "impact": 5
+  },
+  {
+   "id": "Art. 49",
+   "domain": "International transfers (Art. 44-49)",
+   "title": "Derogations for specific situations",
+   "summary": "Transfers relying on exceptions such as explicit consent are limited, documented and justified.",
+   "evidence_hint": "Register of derogation-based transfers with justification.",
+   "impact": 3
+  }
+ ]
+}
